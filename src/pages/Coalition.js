@@ -12,7 +12,6 @@ import SimpleSlider1 from './../components/Sliders/Slick-slider1'
 function Coalition() {
   return (
     <>
-      
       <div   className="full-screen-block">
       <Header1/>
       <SimpleSlider1/>
