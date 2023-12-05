@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import logo from "./../../images/logo-big-shop.png";
 
-function Navbar3() {
+function Navbar() {
   const [navToggle, setnavToggle] = useState(true);
 
   return (
@@ -43,7 +43,9 @@ function Navbar3() {
             id="navbar-full"
           >
             <li className="current home">
-              <span className="bg-icon">1</span>
+              <span className="bg-icon">
+                <i className="ion-ios-home-outline"></i>
+              </span>
               <span className="rotated-title effect">Node Owner</span>
               <Link
                 to="/node-owner"
@@ -56,10 +58,12 @@ function Navbar3() {
               </Link>
             </li>
             <li className="about">
-              <span className="bg-icon">2</span>
+              <span className="bg-icon">
+                <i className="ion-ios-person-outline"></i>
+              </span>
               <span className="rotated-title effect">Coalition</span>
               <Link
-                to="/coallition"
+                to="/coalition"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -69,7 +73,9 @@ function Navbar3() {
               </Link>
             </li>
             <li className="service">
-              <span className="bg-icon">3</span>
+              <span className="bg-icon">
+                <i className="ion-ios-star-outline"></i>
+              </span>
               <span className="rotated-title effect">
                 Application Developer
               </span>
@@ -84,7 +90,9 @@ function Navbar3() {
               </Link>
             </li>
             <li className="work">
-              <span className="bg-icon">4</span>
+              <span className="bg-icon">
+                <i className="ion-ios-photos-outline"></i>
+              </span>
               <span className="rotated-title effect">Users</span>
               <Link
                 to="/user"
@@ -97,7 +105,9 @@ function Navbar3() {
               </Link>
             </li>
             <li className="contact">
-              <span className="bg-icon">5</span>
+              <span className="bg-icon">
+                <i className="ion-ios-chatboxes-outline"></i>
+              </span>
               <span className="rotated-title effect">
                 Asset Backend Providers
               </span>
@@ -112,8 +122,12 @@ function Navbar3() {
               </Link>
             </li>
             <li className="auth">
-              <span className="bg-icon">6</span>
-              <span className="rotated-title">Authentic Intelligence</span>
+              <span className="bg-icon">
+                <i className="ion-ios-telephone-outline"></i>
+              </span>
+              <span className="rotated-title effect">
+                Authentic Intelligence
+              </span>
               <Link
                 to="/authentic-intelligence"
                 className="link-item"
@@ -121,7 +135,7 @@ function Navbar3() {
                 duration={800}
                 activeClass="active"
               >
-                Authentic Intelligence{" "}
+                Authentic intelligence
               </Link>
             </li>
           </ul>
@@ -131,4 +145,4 @@ function Navbar3() {
   );
 }
 
-export default Navbar3;
+export default Navbar;

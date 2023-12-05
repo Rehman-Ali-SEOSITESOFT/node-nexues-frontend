@@ -61,13 +61,18 @@
 /* ==========================================================================
    Block background style
    ========================================================================== */
-.color-scheme-1 {
+   .color-scheme-1 {
+    background-color: #121418;
+    overflow: hidden;
+  }
+   /* .color-scheme-1 {
   background-color: #222222;
   overflow: hidden;
-}
+} */
 
 .color-scheme-2 {
-  background-color: #272727;
+  /* background-color: #272727; */
+  background-color: #121418;
   overflow: hidden;
 }
 
@@ -86,7 +91,8 @@
 }
 .color-scheme-blur {
   overflow: hidden;
-  background-color: rgba(0,0,0, 0.3);
+  /* background-color: rgba(0,0,0, 0.3); */
+  background-color: #121418c2;
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(10px);
 }
@@ -453,32 +459,32 @@ Slider
 }
 
 .full-screen-block.sliderLight {
-  background-image: url(../img/bg/bg1.jpg);
+  background-image: url(../img/my/intro/intro-bg-4.png);
   background-position: center left;
 }
 
 .full-screen-block.slider1_1 {
-  background-image: url(../img/my/intro/intro-bg-4.png);
+  background-image: url(../img/my/intro/intro-bg-2.png);
 }
 
 .full-screen-block.slider1_2 {
-  background-image: url(../img/my/intro//intro-bg-2.png);
+  background-image: url(../img/my/intro//intro-bg-3.png);
 }
 
 .full-screen-block.slider2_1 {
-  background-image: url(../img/preview/slider/slider_1.jpg);
+  background-image: url(../img/my/intro/intro-bg-2.png);
 }
 
 .full-screen-block.slider2_2 {
-  background-image: url(../img/preview/slider/slider_2.jpg);
+  background-image: url(../img/my/intro/intro-bg-5.png);
 }
 
 .full-screen-block.slider3_1 {
-  background-image: url(../img/preview/slider/slider_1_1.jpg);
+  background-image: url(../img/my/intro/intro-bg-6.png);
 }
 
 .full-screen-block.slider3_2 {
-  background-image: url(../img/preview/slider/slider_1_1.jpg);
+  background-image: url(../img/my/intro/intro-bg-3.png);
 }
 
 .sliderTitleBlock {
@@ -1006,7 +1012,8 @@ video#cover-video {
   top: 0;
   width: 300px;
   height: 300px;
-  background-color: rgba(34, 34, 34, 0.5);
+  /* background-color: rgba(34, 34, 34, 0.5); */
+  background-color: rgba(18, 20, 24, 0.5);
 }
 .bg_object2 {
   position: absolute;
@@ -1188,7 +1195,8 @@ video#cover-video {
 }
 
 #header .header-body-fixed .navbar-default {
-  background-color: rgba(34, 34, 34, 0.95);
+  /* background-color: rgba(34, 34, 34, 0.95); */
+  background-color: #121418eb;
 }
 
 #header .header-body-fixed .navbar-default.light {
@@ -1557,27 +1565,27 @@ video#cover-video {
 }
 
 #header .navbar-default.light .navbar-nav .home {
-  background-image: url("../img/bg/bg13.jpg");
+  background-image: url("../img/my/intro/intro-bg.png");
 }
 
 #header .navbar-default.light .navbar-nav .about {
-  background-image: url("../img/bg/bg14.jpg");
+  background-image: url("../img/my/intro/intro-bg-2.png");
 }
 
 #header .navbar-default.light .navbar-nav .service {
-  background-image: url("../img/bg/bg15.jpg");
+  background-image: url("../img/my/intro/intro-bg-3.png");
 }
 
 #header .navbar-default.light .navbar-nav .work {
-  background-image: url("../img/bg/bg16.jpg");
+  background-image: url("../img/my/intro/intro-bg-4.png");
 }
 
 #header .navbar-default.light .navbar-nav .blog {
-  background-image: url("../img/bg/bg17.jpg");
+  background-image: url("../img/my/intro/intro-bg-5.png");
 }
 
 #header .navbar-default.light .navbar-nav .contact {
-  background-image: url("../img/bg/bg17.jpg");
+  background-image: url("../img/my/intro/intro-bg-5.png");
 }
 
 #header .navbar-default .menu-item-4 li {
@@ -3530,7 +3538,8 @@ section:hover .img-rotate img {
 .post-blog {
   position: relative;
   margin-bottom: 50px;
-  background-color: #191919;
+  /* background-color: #191919; */
+  background-color: #121824;
 }
 .post-blog span{
   cursor: pointer;
@@ -3806,7 +3815,8 @@ form textarea {
   padding: 10px 20px;
   width: 100%;
   font-size: 14px;
-  background: #191919;
+  /* background: #191919; */
+  background: #121418;
   margin-bottom: 25px;
   text-align: center;
 
@@ -5005,13 +5015,14 @@ textarea:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(34, 34, 34, 0.9);
+  /* background-color: rgba(34, 34, 34, 0.9); */
+  background-color: rgba(18 20 24 / 97%);
 }
 
 .bg-50-l:after {
   content: "";
   border-top: 100px solid transparent;
-  border-left: 100px solid rgba(34, 34, 34, 0.9);
+  border-left: 100px solid rgba(18 20 24 / 97%);;
   border-right: 100px solid transparent;
   position: absolute;
   left: 100%;
@@ -5022,7 +5033,7 @@ textarea:focus {
 .bg-50-l:before {
   content: "";
   border-bottom: 100px solid transparent;
-  border-left: 100px solid rgba(34, 34, 34, 0.9);
+  border-left: 100px solid rgba(18 20 24 / 97%);;
   border-right: 100px solid transparent;
   position: absolute;
   left: 100%;
@@ -5046,14 +5057,16 @@ textarea:focus {
   height: 100%;
   left: 50%;
   top: 0;
-  background-color: rgba(34, 34, 34, 0.9);
+  /* background-color: rgba(34, 34, 34, 0.9); */
+  background-color: rgba(18, 20, 24, 0.9);
+
 }
 
 .bg-50-r:after {
   content: "";
   border-top: 100px solid transparent;
   border-left: 100px solid transparent;
-  border-right: 100px solid rgba(34, 34, 34, 0.9);
+  border-right: 100px solid rgba(18, 20, 24, 0.9);
   position: absolute;
   left: -200px;
   bottom: 0;
@@ -5064,7 +5077,7 @@ textarea:focus {
   content: "";
   border-bottom: 100px solid transparent;
   border-left: 100px solid transparent;
-  border-right: 100px solid rgba(34, 34, 34, 0.9);
+  border-right: 100px solid rgba(18, 20, 24, 0.9);
   position: absolute;
   left: -200px;
   top: 0;
@@ -5163,7 +5176,8 @@ span.dropcap {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(26, 26, 26, 0.85);
+  background-color: rgba(18, 20, 24, 0.85);
+  /* background-color: rgba(26, 26, 26, 0.85); */
   z-index: 0;
 }
 
@@ -5332,12 +5346,20 @@ span.dropcap {
 /* ==========================================================================
    Footer section style
    ========================================================================== */
-#footer {
+/* #footer {
   position: relative;
   padding: 100px 0 0;
   background-color: #222222;
   text-align: left;
+} */
+
+#footer {
+  position: relative;
+  padding: 100px 0 0;
+  background-color: #121418;
+  text-align: left;
 }
+
 
 #footer #to-top {
   position: absolute;

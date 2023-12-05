@@ -10,7 +10,7 @@ import {FacebookIcon,
     TelegramIcon,
     LinkedinIcon,
     TwitterIcon} from "react-share";
-function Contact4() {
+function Contact6() {
     return (
         <>
         <section  id="contact" className="light">
@@ -83,4 +83,4 @@ function Contact4() {
     )
 }
 
-export default Contact4
+export default Contact6

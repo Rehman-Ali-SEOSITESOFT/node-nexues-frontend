@@ -1,5 +1,5 @@
 import React from 'react'
-function About4() {
+function About() {
     
     return (
         <>
@@ -71,4 +71,4 @@ function About4() {
     )
 }
 
-export default About4
+export default About

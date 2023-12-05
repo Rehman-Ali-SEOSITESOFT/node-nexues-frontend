@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import Navbar2 from './../Navbar/Navbar2'
+import Navbar1 from './../Navbar/Navbar1'
 import {Link} from 'react-scroll'
-function Header6() {
+function Header() {
     const [fixHeader, setFixed] = useState(false);
     //let winHeight = window.innerHeight;
     const fixedHeader = () =>{
@@ -18,7 +18,7 @@ function Header6() {
             setFixed(false);
         }
         
-        
+
     }
 
     window.addEventListener('scroll', fixedHeader);
@@ -33,7 +33,7 @@ function Header6() {
             <div className="full-screen-block">
                 <div className={fixHeader?'header-body header-body-fixed':'header-body'} id="header-body-fixed">
                     <div id="container-fixed">
-                        <Navbar2/>
+                        <Navbar1/>
                     </div>
                 </div>
             </div>
@@ -42,4 +42,4 @@ function Header6() {
     )
 }
 
-export default Header6
+export default Header

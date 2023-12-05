@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-function About2() {
+function About6() {
     
     return (
         <>
@@ -132,4 +132,4 @@ function About2() {
     )
 }
 
-export default About2
+export default About6

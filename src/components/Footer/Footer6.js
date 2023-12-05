@@ -10,7 +10,7 @@ import {FacebookIcon,
         LinkedinIcon,
         TwitterIcon} from "react-share";
 
-function Footer2() {
+function Footer6() {
     return (
         <>
         <footer id="footer">
@@ -137,4 +137,4 @@ function Footer2() {
     )
 }
 
-export default Footer2
+export default Footer6

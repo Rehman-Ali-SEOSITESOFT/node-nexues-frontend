@@ -1,6 +1,6 @@
 import React from 'react'
 import bg_vide from '../../videos/bigway.mp4'
-function About1() {
+function About5() {
     
     return (
         <>
@@ -106,4 +106,4 @@ function About1() {
     )
 }
 
-export default About1
+export default About5

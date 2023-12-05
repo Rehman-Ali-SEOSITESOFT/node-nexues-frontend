@@ -10,7 +10,7 @@ import {FacebookIcon,
     TelegramIcon,
     LinkedinIcon,
     TwitterIcon} from "react-share";
-function Contact5() {
+function Contact() {
     return (
         <>
         <section  id="contact" className="bg-non-fixed">
@@ -100,4 +100,4 @@ function Contact5() {
     )
 }
 
-export default Contact5
+export default Contact

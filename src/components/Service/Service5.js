@@ -37,7 +37,7 @@ const services = [
         text:'Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam.'
     }
 ]
-function Service1() {
+function Service5() {
     return (
         <>
           <section  id="services"  className="bg-non-fixed">
@@ -103,4 +103,4 @@ function Service1() {
     )
 }
 
-export default Service1
+export default Service5

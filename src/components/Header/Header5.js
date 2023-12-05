@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Navbar1 from './../Navbar/Navbar1'
 import {Link} from 'react-scroll'
-function Header1() {
+function Header5() {
     const [fixHeader, setFixed] = useState(false);
     //let winHeight = window.innerHeight;
     const fixedHeader = () =>{
@@ -42,4 +42,4 @@ function Header1() {
     )
 }
 
-export default Header1
+export default Header5
