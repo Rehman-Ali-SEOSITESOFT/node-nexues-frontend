@@ -121,7 +121,7 @@ function Navbar3() {
                 duration={800}
                 activeClass="active"
               >
-                Authentic Intelligence{" "}
+                Authentic Intelligence
               </Link>
             </li>
           </ul>

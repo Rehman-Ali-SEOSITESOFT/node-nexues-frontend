@@ -71,7 +71,7 @@ function Navbar1() {
               <span className="bg-icon">3</span>
               <span className="rotated-title">Application Developer</span>
               <Link
-                to="/applicatioin-developer"
+                to="/application-developer"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -116,7 +116,7 @@ function Navbar1() {
                 duration={800}
                 activeClass="active"
               >
-                Authentic Intelligence{" "}
+                Authentic Intelligence
               </Link>
             </li>
           </ul>

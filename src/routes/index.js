@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home1 from "../pages/Home1";
-import Home2 from "../pages/Home2";
-import Home3 from "../pages/Home3";
-import Home4 from "../pages/Home4";
-import Home5 from "../pages/Home5";
-import Home6 from "../pages/Home6";
+import Home1 from "../pages/NoeOwnerHome";
+import Home2 from "../pages/ColitionHome";
+import Home3 from "../pages/ApplicationDeveloperHome";
+import Home4 from "../pages/UsersHome";
+import Home5 from "../pages/AssetsBackendHome";
+import Home6 from "../pages/AuthenticIntelligenceHome";
 import Home from "../pages/Home";
 
 function RoutesList() {
