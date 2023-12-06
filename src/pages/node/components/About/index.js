@@ -15,7 +15,7 @@ function About1() {
   let i = 0;
   useEffect(() => {
     /// for security timer
-    securityInteval = setInterval(() => {
+     securityInteval = setInterval(() => {
       c = c + 1;
       setSecurity(c);
       clearIntervalS();
@@ -41,6 +41,8 @@ function About1() {
       setIntel(i);
       clearIntervalI();
     }, 50);
+
+   
   }, []);
   const clearIntervalS = () => {
     if (c == 100) clearInterval(securityInteval);
@@ -54,7 +56,11 @@ function About1() {
   const clearIntervalF = () => {
     if (f == 100) clearInterval(fairInteval);
   };
+  const [height, setHeight] = useState(0);
+    
+  useEffect( () => { setHeight(document.documentElement.scrollHeight) });
 
+  console.log(height, "scroll heigh")
 
   return (
     <>
@@ -82,7 +88,7 @@ function About1() {
                         className="section-col wow fadeInUp animated"
                         data-wow-duration="1.5s"
                       ></div>
-                      <div className="container">
+                      <div className="container about-con">
                         <img
                           src="img/preview/node_logo.png"
                           alt="Node Logo"
@@ -92,14 +98,14 @@ function About1() {
                         />
                         <div className="text-container">
                           <p
-                            className="head-text wow fadeInUp animated"
+                            className="head-text txt wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
                             Calling this a Node Sale is like saying a power
                             plant is just a battery.
                           </p>
                           <p
-                            className="head-text wow fadeInUp animated"
+                            className="head-text txt  wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
                             When you buy a server on the NNN cloud, you’re not
@@ -107,7 +113,7 @@ function About1() {
                             plugging into the heart of the digital future.
                           </p>
                           <p
-                            className="head-text wow fadeInUp animated"
+                            className="head-text txt wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
                             This is about owning a piece of the infrastructure
@@ -115,7 +121,7 @@ function About1() {
                             internet.
                           </p>
                           <p
-                            className="head-text wow fadeInUp animated"
+                            className="head-text txt wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
                             You’re not just buying a server; you’re investing in
@@ -124,7 +130,7 @@ function About1() {
                             and silver.
                           </p>
                           <p
-                            className="head-text wow fadeInUp animated"
+                            className="head-text txt wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
                             It’s a stake in a new digital economy, with the
@@ -132,7 +138,7 @@ function About1() {
                             itself.
                           </p>
                           <p
-                            className="head-text wow fadeInUp animated"
+                            className="head-text txt wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
                             This isn’t just a Node Sale; it’s a passport to the
