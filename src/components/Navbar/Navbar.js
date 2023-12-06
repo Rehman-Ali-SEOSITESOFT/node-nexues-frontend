@@ -48,7 +48,7 @@ function Navbar() {
               </span>
               <span className="rotated-title effect">Node Owner</span>
               <Link
-                to="/node-owner"
+                to="/node"
                 className="link-item "
                 smooth={false}
                 duration={800}

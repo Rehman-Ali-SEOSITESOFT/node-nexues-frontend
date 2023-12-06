@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Navbar1 from './../Navbar/Navbar1'
+import Navbar1 from './../Navbar/Navbar'
 import {Link} from 'react-scroll'
 function Header() {
     const [fixHeader, setFixed] = useState(false);
