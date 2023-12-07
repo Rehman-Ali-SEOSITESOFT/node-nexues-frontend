@@ -4,10 +4,7 @@ function Map() {
   return (
     <>
       <div className="google-map">
-        <iframe
-          title="NNN Address"
-          src="https://www.google.com/maps/place/Marina+One+West+Tower/@1.2778244,103.8516408,18z/data=!3m1!5s0x31da19bc5c407453:0x1104b49a244709e6!4m6!3m5!1s0x31da1995d1353a77:0x7571f2c9b9280de5!8m2!3d1.2772443!4d103.8523576!16s%2Fg%2F11fn9d4xcj?entry=ttu"
-        ></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1994.413056756967!2d103.8516408!3d1.2778244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1995d1353a77%3A0x7571f2c9b9280de5!2sMarina%20One%20West%20Tower!5e0!3m2!1sen!2s!4v1701947652624!5m2!1sen!2s" width="600" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
     </>
   );

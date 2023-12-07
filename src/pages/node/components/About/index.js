@@ -5,62 +5,34 @@ function About1() {
   const [fair, setFair] = useState(0);
   const [auth, setAuth] = useState(0);
   const [intel, setIntel] = useState(0);
-  let securityInteval;
-  let fairInteval;
-  let authInteval;
-  let intelInteval;
-  let c = 0;
-  let f = 0;
-  let a = 0;
-  let i = 0;
+
+  const startTimer = (interval, setValue, limit) => {
+    let counter = 0;
+    const timerInterval = setInterval(() => {
+      counter = counter + 1;
+      setValue(counter);
+      if (counter === limit) {
+        clearInterval(timerInterval);
+      }
+    }, interval);
+  };
+
   useEffect(() => {
-    /// for security timer
-     securityInteval = setInterval(() => {
-      c = c + 1;
-      setSecurity(c);
-      clearIntervalS();
-    }, 20);
+    const securityInterval = startTimer(20, setSecurity, 100); // Security timer
+    const fairInterval = startTimer(30, setFair, 100);         // Fair timer
+    const authInterval = startTimer(40, setAuth, 100);         // Auth timer
+    const intelInterval = startTimer(50, setIntel, 100);       // Intel timer
 
-    /// for fair timer
-    fairInteval = setInterval(() => {
-      f = f + 1;
-      setFair(f);
-      clearIntervalF();
-    }, 30);
-
-    /// for auth timer
-    authInteval = setInterval(() => {
-      a = a + 1;
-      setAuth(a);
-      clearIntervalA();
-    }, 40);
-
-    /// for Intel timer
-    intelInteval = setInterval(() => {
-      i = i + 1;
-      setIntel(i);
-      clearIntervalI();
-    }, 50);
-
-   
+    // Cleanup intervals
+    return () => {
+      clearInterval(securityInterval);
+      clearInterval(fairInterval);
+      clearInterval(authInterval);
+      clearInterval(intelInterval);
+    };
   }, []);
-  const clearIntervalS = () => {
-    if (c == 100) clearInterval(securityInteval);
-  };
-  const clearIntervalA = () => {
-    if (a == 100) clearInterval(authInteval);
-  };
-  const clearIntervalI = () => {
-    if (i == 100) clearInterval(intelInteval);
-  };
-  const clearIntervalF = () => {
-    if (f == 100) clearInterval(fairInteval);
-  };
-  const [height, setHeight] = useState(0);
-    
-  useEffect( () => { setHeight(document.documentElement.scrollHeight) });
 
-  console.log(height, "scroll heigh")
+ 
 
   return (
     <>
@@ -98,7 +70,7 @@ function About1() {
                         />
                         <div className="text-container">
                           <p
-                            className="head-text txt wow fadeInUp animated"
+                            className="head-text txt wow  fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
                             Calling this a Node Sale is like saying a power
@@ -161,15 +133,21 @@ function About1() {
                     <h4 className="widget-title">
                       FAULT TOLERANCE FOR HUMANITY
                     </h4>
-                    <p>
+                    <p className="p-m ">
                       Imagine an online world where authenticity and safety
                       reign supreme, a digital haven safeguarding your data from
-                      the darker corners of the web. This is the essence of
-                      fault tolerance for humanity, a journey back to a
-                      protected online environment where your data finds
-                      sanctuary. Here's why you should host yourself on Node
-                      Nexus Network:
+                      the darker corners of the web.
                     </p>
+                    <p className="p-m ">This is the essence of fault tolerance for humanity.</p>
+                    <p className="">
+                      Journey back to a protected online environment where your
+                      data finds sanctuary and the world is backed by precious
+                      matels.
+                    </p>
+                    <p className="">
+                      Here's why you should join our Dual Infrastructure Bond:
+                    </p>
+
                     <ul className="ul-n opensans">
                       <li>
                         <span className="fb-bold">Data Sanctuary:</span> We're
@@ -259,10 +237,10 @@ function About1() {
                     <div className="progress">
                       <div
                         className="progress-bar"
-                        style={{ width: `${auth}%` }}
+                        style={{ width: `${intel}%` }}
                       ></div>
                       <span className="skill-value">
-                        Collective Intelligence<span> ${auth}%</span>
+                        Collective Intelligence<span> ${intel}%</span>
                       </span>
                     </div>
                   </div>

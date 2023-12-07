@@ -233,6 +233,7 @@
     padding: 0;
     line-height: 50px;
     text-align: center;
+    opacity: 1;
   }
   #header .navbar-default .navbar-nav li  .link-item:hover {
     background-color: rgba(180, 110, 60, 0.7);

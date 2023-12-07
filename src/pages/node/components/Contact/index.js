@@ -1,19 +1,23 @@
 import React from "react";
 import ContactForm from "./../Contact/ContactForm";
-import {
-  FacebookShareButton,
-  PinterestShareButton,
-  TelegramShareButton,
-  LinkedinShareButton,
-  TwitterShareButton,
-} from "react-share";
-import {
-  FacebookIcon,
-  PinterestIcon,
-  TelegramIcon,
-  LinkedinIcon,
-  TwitterIcon,
-} from "react-share";
+// import {
+//   FacebookShareButton,
+//   PinterestShareButton,
+//   TelegramShareButton,
+//   LinkedinShareButton,
+//   TwitterShareButton,
+//   WhatsappShareButton,
+//   InstapaperShareButton
+
+// } from "react-share";
+// import {
+//   FacebookIcon,
+//   PinterestIcon,
+//   TelegramIcon,
+//   LinkedinIcon,
+//   TwitterIcon,
+// } from "react-share";
+
 function Contact1() {
   return (
     <>
@@ -51,49 +55,138 @@ function Contact1() {
                       >
                         <ul className="list-unstyled">
                           <li>
-                            <FacebookShareButton
-                              url="https://youtu.be/3aSb1WPK4Kg"
-                              quote="Anema"
-                              hashtag="#anema"
+                            <a
+                              href="https://www.facebook.com/"
+                              target="_blank"
+                              rel="noreferrer"
                             >
-                              <FacebookIcon
-                                round={true}
-                                size={38}
-                              ></FacebookIcon>
-                            </FacebookShareButton>
+                              <img
+                                src="/img/preview/social-icons/nnn_facebook.png"
+                                className="contact-logo-m"
+                                alt="facebook"
+                              />
+                            </a>
                           </li>
                           <li>
-                            <PinterestShareButton
-                              url="https://youtu.be/3aSb1WPK4Kg"
-                              media="https://youtu.be/3aSb1WPK4Kg"
+                            <a
+                              href="https://www.pinterest.com/"
+                              target="_blank"
+                              rel="noreferrer"
                             >
-                              <PinterestIcon
-                                round={true}
-                                size={38}
-                              ></PinterestIcon>
-                            </PinterestShareButton>
+                              <img
+                                src="/img/preview/social-icons/nnn_pinterest.png"
+                                className="contact-logo-m"
+                                alt="pinterest"
+                              />
+                            </a>
                           </li>
                           <li>
-                            <LinkedinShareButton url="https://youtu.be/3aSb1WPK4Kg">
-                              <LinkedinIcon
-                                round={true}
-                                size={38}
-                              ></LinkedinIcon>
-                            </LinkedinShareButton>
+                            <a
+                              href="https://pk.linkedin.com/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <img
+                                src="/img/preview/social-icons/nnn_linkedin.png"
+                                className="contact-logo-m"
+                                alt="linkedin"
+                              />
+                            </a>
+                          </li>
+                          {/* <li>
+                            <a
+                              href="https://www.instagram.com/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <img
+                                src="/img/preview/social-icons/nnn_instagram.png"
+                                className="contact-logo-m"
+                                
+                                alt="instagram"
+                              />
+                            </a>
+                          </li> */}
+                          <li>
+                            <a
+                              href="https://twitter.com/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <img
+                                src="/img/preview/social-icons/nnn_x.png"
+                                className="contact-logo-m"
+                                alt="x"
+                              />
+                            </a>
                           </li>
                           <li>
-                            <TwitterShareButton url="https://youtu.be/3aSb1WPK4Kg">
-                              <TwitterIcon round={true} size={38}></TwitterIcon>
-                            </TwitterShareButton>
+                            <a
+                              href="https://telegram.org/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <img
+                                src="/img/preview/social-icons/nnn_telegram.png"
+                                className="contact-logo-m"
+                                alt="telegram"
+                              />
+                            </a>
                           </li>
-                          <li>
-                            <TelegramShareButton url="https://youtu.be/3aSb1WPK4Kg">
-                              <TelegramIcon
-                                round={true}
-                                size={38}
-                              ></TelegramIcon>
-                            </TelegramShareButton>
-                          </li>
+                          {/* <li>
+                            <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
+                              <img
+                                src="/img/preview/social-icons/nnn_whatsapp.png"
+                                className="contact-logo-m"
+                                
+                                alt="whatsapp"
+                              />
+                            </a>
+                          </li> */}
+                          {/* <li>
+                            <a href="https://www.snapchat.com/" target="_blank" rel="noreferrer">
+                              <img
+                                src="/img/preview/social-icons/nnn_snapchat.png"
+                                className="contact-logo-m"
+                                
+                                alt="snapchat"
+                              />
+                            </a>
+                          </li> */}
+                          {/* <li>
+                            <a href="https://vimeo.com/" target="_blank" rel="noreferrer">
+                              <img
+                                src="/img/preview/social-icons/nnn_vimeo.png"
+                                className="contact-logo-m"
+                                
+                                alt="vimeo"
+                              />
+                            </a>
+                          </li> */}
+                          {/* <li>
+                            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+                              <img
+                                src="/img/preview/social-icons/nnn_youtube.png"
+                                className="contact-logo-m"
+                                
+                                alt="youtune"
+                              />
+                            </a>
+                          </li> */}
+                          {/* <li>
+                            <a
+                              href="https://www.google.com/maps/@31.4343424,73.1283456,12z"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <img
+                                src="/img/preview/social-icons/nnn_location.png"
+                                className="contact-logo-m"
+                                
+                                alt="google-map"
+                              />
+                            </a>
+                          </li> */}
                         </ul>
                       </div>
                     </article>
@@ -118,12 +211,17 @@ function Contact1() {
                   <div className="col-lg-6">
                     <div className="widget-block mobile-center">
                       <h4 className="widget-title">
-                        <i className="ion-android-call"></i>Phone:
+                        <i className="ion-android-chat"></i>Chat with Team:
                       </h4>
                       <p>
-                        (10 808) 321-1785-952
-                        <br />
-                        (10 808) 321-1785-953
+                        <a
+                          href="https://nnn.cloud/chat"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Click here&nbsp;
+                        </a>
+                        to Chat with our Team
                       </p>
                     </div>
                   </div>

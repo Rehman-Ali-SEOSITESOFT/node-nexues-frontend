@@ -82,22 +82,55 @@ function Service1() {
                         data-wow-duration="1.5s"
                       >
                         <div className="fuct">
-                          <i className="ion-ios-pie-outline icon-m" style={{fontSize: '4em'}}></i>
+                          <div className="icon-d">
+                            <span className="icon-d-inner">
+                              <img
+                                src="/img/preview/sprite_icon.png"
+                                className="service-logo-m"
+                                alt="sprite-icon"
+                              />
+                            </span>
+                          </div>
+
                           <h2>Sprite</h2>
                           <h4>Personal & SMB</h4>
                         </div>
                         <div className="fuct">
-                        <i className="ion-ios-pie-outline icon-m" style={{fontSize: '4em'}}></i>
+                          <div className="icon-d">
+                            <span className="icon-d-inner">
+                              <img
+                                src="/img/preview/centro_icon.png"
+                                className="service-logo-m"
+                                alt="centro-icon"
+                              />
+                            </span>
+                          </div>
                           <h2>Centro</h2>
                           <h4>Mid Market</h4>
                         </div>
                         <div className="fuct">
-                        <i className="ion-ios-pie-outline icon-m" style={{fontSize: '4em'}}></i>
+                          <div className="icon-d">
+                            <span className="icon-d-inner">
+                              <img
+                                src="/img/preview/titan_icon.png"
+                                className="service-logo-m"
+                                alt="titan-icon"
+                              />
+                            </span>
+                          </div>
                           <h2>Titan</h2>
                           <h4>Enterprise</h4>
                         </div>
                         <div className="fuct">
-                        <i className="ion-ios-pie-outline icon-m" style={{fontSize: '4em'}}></i>
+                          <div className="icon-d">
+                            <span className="icon-d-inner">
+                              <img
+                                src="/img/preview/nations_icon.png"
+                                className="service-logo-m"
+                                alt="nations-icon"
+                              />
+                            </span>
+                          </div>
                           <h2>Nations</h2>
                           <h4>MSPs</h4>
                         </div>

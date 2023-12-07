@@ -17,18 +17,34 @@ function Welcome1() {
                         className="head-title wow fadeInDown animated"
                         data-wow-duration="1.5s"
                       >
-                        WELCOME TO THE NODE SERVER SECTION
+                        WELCOME TO NODE SERVERS
                       </h1>
                       <div
                         className="section-col wow fadeInUp animated"
                         data-wow-duration="1.5s"
                       ></div>
                       <p
-                        className="head-text wow fadeInUp animated"
+                        className="head-text p-m wow fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
-                       
-A NODE NEXUS NETWORK IS A DYNAMIC, INTERCONNECTED WEB OF SERVER INFRASTRUCTURE THAT DECENTRALIZES DIGITAL OPERATIONS, OFFERING ENHANCED SECURITY, EFFICIENCY, AUTHENTIC INTELLIGENCE AND GLOBAL CONNECTIVITY FOR ALL ITS USERS. OUR INFRASTRUCTURE BOND IS BACKED BY 4 TIERS OF NODE SERVERS. CLICK ON THE ICONS BELOW TO LEARN MORE:
+                        A NODE NEXUS NETWORK IS A DYNAMIC, INTERCONNECTED WEB OF
+                        SERVER INFRASTRUCTURE THAT DECENTRALIZES DIGITAL
+                        OPERATIONS, OFFERING ENHANCED SECURITY, EFFICIENCY,
+                        AUTHENTIC INTELLIGENCE AND GLOBAL CONNECTIVITY FOR ALL
+                        ITS USERS.
+                      </p>
+                      <p
+                        className="head-text wow p-m fadeInUp animated txt"
+                        data-wow-duration="1.5s"
+                      >
+                         OUR INFRASTRUCTURE BOND IS BACKED BY 4 TIERS
+                        OF NODE SERVERS.
+                      </p>
+                      <p
+                        className="head-text wow p-m fadeInUp animated txt" 
+                        data-wow-duration="1.5s"
+                      >
+                       CLICK ON THE ICONS BELOW TO LEARN MORE:
                       </p>
                     </article>
                   </div>
