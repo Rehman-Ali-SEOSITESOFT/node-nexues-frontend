@@ -37,14 +37,14 @@ function Welcome1() {
                         className="head-text wow p-m fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
-                         OUR INFRASTRUCTURE BOND IS BACKED BY 4 TIERS
-                        OF NODE SERVERS.
+                        OUR INFRASTRUCTURE BOND IS BACKED BY 4 TIERS OF NODE
+                        SERVERS.
                       </p>
                       <p
-                        className="head-text wow p-m fadeInUp animated txt" 
+                        className="head-text wow p-m fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
-                       CLICK ON THE ICONS BELOW TO LEARN MORE:
+                        CLICK ON THE ICONS BELOW TO LEARN MORE:
                       </p>
                     </article>
                   </div>

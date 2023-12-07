@@ -55,14 +55,29 @@ function NewsletterForm() {
           <div id="NewsletterErrResults"></div>
           <div id="NewsletterResult"></div>
           <div id="NewsletterContent">
-           
-           <div>
-            <img src="/img/preview/join-us/novus_large.png" height={120} width={120}/>
-            <img src="/img/preview/join-us/navigate_large.png" height={120} width={120}/>
-            <img src="/img/preview/join-us/neighborhood_large.png" height={120} width={120}/>
-            <img src="/img/preview/join-us/node_large.png" height={120} width={120}/>
-           </div>
-           
+            <div>
+              <img
+                src="/img/preview/join-us/novus_large.png"
+                height={120}
+                width={120}
+              />
+              <img
+                src="/img/preview/join-us/navigate_large.png"
+                height={120}
+                width={120}
+              />
+              <img
+                src="/img/preview/join-us/neighborhood_large.png"
+                height={120}
+                width={120}
+              />
+              <img
+                src="/img/preview/join-us/node_large.png"
+                height={120}
+                width={120}
+              />
+            </div>
+
             <form
               id="MyNewsletter"
               name="MyNewsletter"

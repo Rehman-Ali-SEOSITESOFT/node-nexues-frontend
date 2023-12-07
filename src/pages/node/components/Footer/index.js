@@ -1,14 +1,5 @@
 import React from 'react';
-// import {FacebookShareButton,
-//         PinterestShareButton,
-//         TelegramShareButton,
-//         LinkedinShareButton,
-//         TwitterShareButton} from "react-share";
-// import {FacebookIcon,
-//         PinterestIcon,
-//         TelegramIcon,
-//         LinkedinIcon,
-//         TwitterIcon} from "react-share";
+
 
 function Footer1() {
     return (
@@ -116,20 +107,7 @@ function Footer1() {
                               />
                             </a>
                           </li>
-                          {/* <li>
-                            <a
-                              href="https://www.instagram.com/"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <img
-                                src="/img/preview/social-icons/nnn_instagram.png"
-                                height={35}
-                                width={35}
-                                alt="instagram"
-                              />
-                            </a>
-                          </li> */}
+                        
                           <li>
                             <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                               <img
@@ -150,60 +128,7 @@ function Footer1() {
                               />
                             </a>
                           </li>
-                          {/* <li>
-                            <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
-                              <img
-                                src="/img/preview/social-icons/nnn_whatsapp.png"
-                                height={35}
-                                width={35}
-                                alt="whatsapp"
-                              />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.snapchat.com/" target="_blank" rel="noreferrer">
-                              <img
-                                src="/img/preview/social-icons/nnn_snapchat.png"
-                                height={35}
-                                width={35}
-                                alt="snapchat"
-                              />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://vimeo.com/" target="_blank" rel="noreferrer">
-                              <img
-                                src="/img/preview/social-icons/nnn_vimeo.png"
-                                height={35}
-                                width={35}
-                                alt="vimeo"
-                              />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-                              <img
-                                src="/img/preview/social-icons/nnn_youtube.png"
-                                height={35}
-                                width={35}
-                                alt="youtune"
-                              />
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://www.google.com/maps/@31.4343424,73.1283456,12z"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <img
-                                src="/img/preview/social-icons/nnn_location.png"
-                                height={35}
-                                width={35}
-                                alt="google-map"
-                              />
-                            </a>
-                          </li> */}
+                       
                                 </ul>
                             </div>
                             <div className="col-md-4 col-xs-12 col-sm-4">

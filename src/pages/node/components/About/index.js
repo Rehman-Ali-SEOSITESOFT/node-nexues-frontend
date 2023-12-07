@@ -19,9 +19,9 @@ function About1() {
 
   useEffect(() => {
     const securityInterval = startTimer(20, setSecurity, 100); // Security timer
-    const fairInterval = startTimer(30, setFair, 100);         // Fair timer
-    const authInterval = startTimer(40, setAuth, 100);         // Auth timer
-    const intelInterval = startTimer(50, setIntel, 100);       // Intel timer
+    const fairInterval = startTimer(30, setFair, 100); // Fair timer
+    const authInterval = startTimer(40, setAuth, 100); // Auth timer
+    const intelInterval = startTimer(50, setIntel, 100); // Intel timer
 
     // Cleanup intervals
     return () => {
@@ -31,8 +31,6 @@ function About1() {
       clearInterval(intelInterval);
     };
   }, []);
-
- 
 
   return (
     <>
@@ -138,7 +136,9 @@ function About1() {
                       reign supreme, a digital haven safeguarding your data from
                       the darker corners of the web.
                     </p>
-                    <p className="p-m ">This is the essence of fault tolerance for humanity.</p>
+                    <p className="p-m ">
+                      This is the essence of fault tolerance for humanity.
+                    </p>
                     <p className="">
                       Journey back to a protected online environment where your
                       data finds sanctuary and the world is backed by precious
