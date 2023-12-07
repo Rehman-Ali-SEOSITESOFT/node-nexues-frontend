@@ -108,6 +108,13 @@ function Service1() {
                           <h2>Centro</h2>
                           <h4>Mid Market</h4>
                         </div>
+                        
+                      </div>
+                      <div
+                        className="fucts-block wow fadeInUp animated"
+                        data-wow-duration="1.5s"
+                      >
+                      
                         <div className="fuct">
                           <div className="icon-d">
                             <span className="icon-d-inner">
