@@ -5699,7 +5699,8 @@ span.dropcap {
 }
 
 #footer .footer-info-block a {
-  color: #ddd;
+  /* color: #ddd; */
+  color: #fff;
   line-height: 28px;
 }
 
