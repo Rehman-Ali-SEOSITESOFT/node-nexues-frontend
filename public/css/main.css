@@ -5796,3 +5796,21 @@ span.dropcap {
   outline: none;
   padding: 20px;
 }
+.my-block{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.my-block-inner{
+  width: 216px !important;
+}
+
+.link-chat{
+  text-decoration: underline;
+}
+
+.link-chat:hover{
+  text-decoration: underline;
+
+}

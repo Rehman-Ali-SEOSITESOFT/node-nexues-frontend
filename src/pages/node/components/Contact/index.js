@@ -131,6 +131,7 @@ function Contact1() {
                       </h4>
                       <p>
                         <a
+                        className="link-chat"
                           href="https://nnn.cloud/chat"
                           target="_blank"
                           rel="noreferrer"

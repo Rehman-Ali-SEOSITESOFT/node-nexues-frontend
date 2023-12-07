@@ -78,10 +78,10 @@ function Service1() {
                       </p>
                       <div className="h25"></div>
                       <div
-                        className="fucts-block wow fadeInUp animated"
+                        className="fucts-block my-block wow fadeInUp animated"
                         data-wow-duration="1.5s"
                       >
-                        <div className="fuct">
+                        <div className="fuct my-block-inner">
                           <div className="icon-d">
                             <span className="icon-d-inner">
                               <img
@@ -95,7 +95,7 @@ function Service1() {
                           <h2>Sprite</h2>
                           <h4>Personal & SMB</h4>
                         </div>
-                        <div className="fuct">
+                        <div className="fuct my-block-inner">
                           <div className="icon-d">
                             <span className="icon-d-inner">
                               <img
@@ -111,11 +111,11 @@ function Service1() {
                         
                       </div>
                       <div
-                        className="fucts-block wow fadeInUp animated"
+                        className="fucts-block my-block wow fadeInUp animated"
                         data-wow-duration="1.5s"
                       >
                       
-                        <div className="fuct">
+                        <div className="fuct my-block-inner">
                           <div className="icon-d">
                             <span className="icon-d-inner">
                               <img
@@ -128,7 +128,7 @@ function Service1() {
                           <h2>Titan</h2>
                           <h4>Enterprise</h4>
                         </div>
-                        <div className="fuct">
+                        <div className="fuct my-block-inner">
                           <div className="icon-d">
                             <span className="icon-d-inner">
                               <img
