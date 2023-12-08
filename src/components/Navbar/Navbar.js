@@ -39,7 +39,7 @@ function Navbar() {
           id="bs-example-navbar-collapse-1"
         >
           <ul
-            className="nav navbar-nav  navbar-right menu-item-6"
+            className="nav navbar-nav   navbar-right menu-item-6 home-page-nav"
             id="navbar-full"
           >
             <li className="current home">

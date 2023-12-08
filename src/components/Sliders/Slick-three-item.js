@@ -38,31 +38,31 @@ export default class SliderThreeItem extends Component {
      
         <Slider {...settings}>
         <div className="item">
-            <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Fault Tolerance for Humanity"} portfolioInfo={"Your data is decentralized"} 
-            portfolioSrc={"img/preview/blog1.jpg"} portfolioAlt={"blog"}/>
+            <PortfolioItem id={1} portfolioUrl={"/"} portfolioTitle={"Fault Tolerance for Humanity"} portfolioInfo={"Your data is decentralized"} 
+            portfolioSrc={"img/preview/blog1.jpg"} portfolioAlt={"blog"}  />
         </div>
         <div className="item">
-            <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Authentic Intelligence"} portfolioInfo={"Uniquely Human Assisted"} 
+            <PortfolioItem id={2} portfolioUrl={"/"} portfolioTitle={"Authentic Intelligence"} portfolioInfo={"Uniquely Human Assisted"} 
             portfolioSrc={"img/preview/blog2.jpg"} portfolioAlt={"blog"}/>
         </div>
         <div className="item">
-            <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Collective Intelligence"} portfolioInfo={"Get Paid for Being You"} 
-            portfolioSrc={"img/preview/blog3.jpg"} portfolioAlt={"blog"}/>
+            <PortfolioItem id={3} portfolioUrl={"/"} portfolioTitle={"Collective Intelligence"} portfolioInfo={"Get Paid for Being You"} 
+            portfolioSrc={"img/preview/blog34.jpg"} portfolioAlt={"blog"}/>
         </div>
         <div className="item">
-            <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Asset Backed"} portfolioInfo={"Utility of Worth"} 
-            portfolioSrc={"img/preview/blog4.jpg"} portfolioAlt={"blog"}/>
-        </div>
-        <div className="item">
-            <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Egalitarian"} portfolioInfo={"Your Data, Your Rules"} 
+            <PortfolioItem id={4} portfolioUrl={"/"} portfolioTitle={"Asset Backed"} portfolioInfo={"Utility of Worth"} 
             portfolioSrc={"img/preview/blog5.jpg"} portfolioAlt={"blog"}/>
         </div>
         <div className="item">
-            <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Web 5.0"} portfolioInfo={"More Resilient Internet:"} 
+            <PortfolioItem id={5} portfolioUrl={"/"} portfolioTitle={"Egalitarian"} portfolioInfo={"Your Data, Your Rules"} 
+            portfolioSrc={"img/preview/blog37.jpg"} portfolioAlt={"blog"}/>
+        </div>
+        <div className="item">
+            <PortfolioItem id={6} portfolioUrl={"/"} portfolioTitle={"Web 5.0"} portfolioInfo={"More Resilient Internet:"} 
             portfolioSrc={"img/preview/blog6.jpg"} portfolioAlt={"blog"}/>
         </div>
         <div className="item">
-            <PortfolioItem portfolioUrl={"/"} portfolioTitle={"Knowledge Economy"} portfolioInfo={"Smarter AI for Everyone: "} 
+            <PortfolioItem id={7} portfolioUrl={"/"} portfolioTitle={"Knowledge Economy"} portfolioInfo={"Smarter AI for Everyone: "} 
             portfolioSrc={"img/preview/blog7.jpg"} portfolioAlt={"blog"}/>
         </div>
         </Slider>

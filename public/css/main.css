@@ -548,7 +548,7 @@ Slider
 }
 
 .full-screen-block.sliderLight {
-  background-image: url(../img/bg/bg4.jpg);
+  background-image: url(../img/bg/intro-bg2.jpg);
   background-position: center left;
 }
 
@@ -1637,6 +1637,8 @@ video#cover-video {
   background-size: cover;
 }
 
+
+
 #header .navbar-default .navbar-nav .about {
   background-image: url("../img/bg/bg4.jpg");
   background-position: center center;
@@ -1679,6 +1681,38 @@ video#cover-video {
 
 #header .navbar-default .navbar-nav .auth {
   background-image: url("../img/bg/bg6.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#header .navbar-default .home-page-nav .home {
+  background-image: url("../img/bg/bg14.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#header .navbar-default .home-page-nav .about {
+  background-image: url("../img/bg/bg4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .home-page-nav .service {
+  background-image: url("../img/bg/bg21.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .home-page-nav .work {
+  background-image: url("../img/bg/bg20.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .home-page-nav .contact {
+  background-image: url("../img/bg/bg19.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -1863,7 +1897,8 @@ video#cover-video {
 
 
 #header .navbar-default .navbar-nav .link-item:focus {
-  background-color: rgba(180, 110, 60, 0.7);
+  /* background-color: rgba(180, 110, 60, 0.7); */
+  background-color: #911d36;
   color: #ffffff;
 }
 
@@ -3219,7 +3254,8 @@ section:hover .img-rotate img {
 }
 
 .portfolio-block:hover {
-  background-color: rgba(180, 110, 60, 1);
+  /* background-color: rgba(180, 110, 60, 1); */
+  background-color: #911d36;
 }
 
 .portfolio-block:hover img {
@@ -3340,7 +3376,8 @@ section:hover .img-rotate img {
   position: absolute;
   left: 0;
   width: 10px;
-  background-color: rgba(180, 110, 60, 0.7);
+  /* background-color: rgba(180, 110, 60, 0.7); */
+  background-color: #911d36;
   height: 0;
   bottom: 0;
   -webkit-transition: all 0.6s ease;
@@ -3422,7 +3459,8 @@ section:hover .img-rotate img {
 
 .portfolio-cell .portfolio-item .image-overlay .image-overlay-content p {
   text-align: center;
-  color: rgba(180, 110, 60, 1);
+  /* color: rgba(180, 110, 60, 1); */
+  color: #911d36;
   margin: 0;
   font-style: italic;
 }

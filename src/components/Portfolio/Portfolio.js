@@ -11,7 +11,7 @@ function Portfolio() {
                 <div className="container">
                     <div className="section-sub-title center">
                         <article className="section-title-body white">
-                            <h1 className="head-title">Best <span>Works</span> from us</h1>
+                            <h1 className="head-title">MORE ABOUT <span>US</span> </h1>
                         </article>
                     </div>    
                 </div> 
