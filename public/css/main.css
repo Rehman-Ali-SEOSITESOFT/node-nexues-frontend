@@ -5815,3 +5815,38 @@ span.dropcap {
   text-decoration: underline;
 
 }
+
+@media (max-width: 470px) {
+  .sliderTitleBlock .homeSliderTitleTop{
+    font-size: 18px !important;
+    line-height: 22px;
+
+  }
+  .sliderTitleBlock .homeSliderTitle{
+    font-size: 32px !important ;
+    line-height: 46px;
+  }
+  
+}
+
+@media (max-width: 912px) {
+  .padding-txt{
+    padding-left: 35px  !important;
+    padding-right: 35px  !important;
+  }
+  
+}
+
+@media (max-width: 450px) {
+  .padding-txt{
+    padding-left: 45px  !important;
+    padding-right: 45px  !important;
+  }
+  .pad-l{
+    padding-left: 10px !important;
+  }
+  .pad-r{
+    padding-right:  10px !important;
+  }
+
+}

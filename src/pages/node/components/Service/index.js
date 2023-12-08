@@ -64,7 +64,7 @@ function Service1() {
                         data-wow-duration="1.5s"
                       ></div>
                       <p
-                        className="head-text wow fadeInUp animated txt"
+                        className="head-text wow fadeInUp animated txt padding-txt"
                         data-wow-duration="1.5s"
                       >
                         In summary, the four tiers of Node Servers on NNN –
@@ -78,7 +78,7 @@ function Service1() {
                       </p>
                       <div className="h25"></div>
                       <div
-                        className="fucts-block my-block wow fadeInUp animated"
+                        className="fucts-block my-block wow fadeInUp animated pad-l"
                         data-wow-duration="1.5s"
                       >
                         <div className="fuct my-block-inner">
@@ -111,7 +111,7 @@ function Service1() {
                         
                       </div>
                       <div
-                        className="fucts-block my-block wow fadeInUp animated"
+                        className="fucts-block my-block wow fadeInUp animated pad-r"
                         data-wow-duration="1.5s"
                       >
                       
