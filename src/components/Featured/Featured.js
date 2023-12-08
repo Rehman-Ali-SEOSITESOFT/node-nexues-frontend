@@ -10,7 +10,7 @@ function Featured() {
               <h1 className="head-title">
                 WHY A DECENTRALIZED INFRASTRUCTURE TECHNOLOGY?
               </h1>
-              <p className="head-text">
+              <p className="head-text txt-c">
                 Node Nexus Network's decentralized cloud is a revolutionary
                 blend of the latest digital technology and the solid reliability
                 of gold and silver, making it a secure and efficient global
@@ -36,14 +36,14 @@ function Featured() {
             <div className="col-lg-3 col-md-6 order-md-1 order-lg-0">
               <div className="feature">
                 <article className="widget-block right">
-                  <h4 className="widget-title">GLOBAL TECHNOLOGY</h4>
+                  <h4 className="widget-title title-l" >GLOBAL TECHNOLOGY</h4>
                   <p>
                     NNN's Cloud spans 16 global regions, offering unparalleled
                     speed, reliability, accessibility, and secure.
                   </p>
                 </article>
                 <article className="widget-block right">
-                  <h4 className="widget-title">ADVANCED INTEGRATION</h4>
+                  <h4 className="widget-title title-l">ADVANCED INTEGRATION</h4>
                   <p>
                     NNN Cloud provides cutting-edge efficiency and fault
                     tolerance, making it a leader in innovative cloud
@@ -55,7 +55,7 @@ function Featured() {
             <div className="col-lg-3  col-md-6  order-md-2  order-lg-3">
               <div className="feature">
                 <article className="widget-block">
-                  <h4 className="widget-title">TECH-METAL BONDS</h4>
+                  <h4 className="widget-title title-l">TECH-METAL BONDS</h4>
                   <p>
                     We combine digital innovation with the security of precious
                     metals like gold and silver for a stable and trustworthy
@@ -64,7 +64,7 @@ function Featured() {
                 </article>
 
                 <article className="widget-block d-lg-none d-xl-block">
-                  <h4 className="widget-title">SECURITY & INNOVATION</h4>
+                  <h4 className="widget-title title-l">SECURITY & INNOVATION</h4>
                   <p>
                     We dramatically enhance data security and AI efficiency,
                     making it an ideal choice for businesses and homes.{" "}

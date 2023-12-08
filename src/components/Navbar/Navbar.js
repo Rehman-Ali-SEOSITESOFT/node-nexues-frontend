@@ -80,7 +80,7 @@ function Navbar() {
                 Application Developer
               </span>
               <Link
-                to="/application-developer"
+                to="/app-dev"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -95,7 +95,7 @@ function Navbar() {
               </span>
               <span className="rotated-title effect">Users</span>
               <Link
-                to="/user"
+                to="/users"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -112,7 +112,7 @@ function Navbar() {
                 Asset Backend Providers
               </span>
               <Link
-                to="/assets-backend-providers"
+                to="/assets"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -129,7 +129,7 @@ function Navbar() {
                 Authentic Intelligence
               </span>
               <Link
-                to="/authentic-intelligence"
+                to="/authentic"
                 className="link-item"
                 smooth={false}
                 duration={800}

@@ -20,20 +20,20 @@ export default class SimpleSlider extends Component {
             <div  className="full-screen-block">
             <div className="sliderTitleBlock rotated">
                     <h3 className= "homeSliderTitleTop white">Node Nexus Network</h3>
-                    <h1 className= "homeSliderTitle"><span>Fault Tolerance for Humanity</span>   </h1>
+                    <h1 className= "homeSliderTitle slider-f"><span>Fault Tolerance for Humanity</span>   </h1>
             </div>
             </div>
             <div  className="full-screen-block">
             <div className="sliderTitleBlock rotated">
                     <h3 className= "homeSliderTitleTop white">Node Nexus Network</h3>
-                    <h1 className= "homeSliderTitle"> <span>People Powered Internet</span>  </h1>
+                    <h1 className= "homeSliderTitle slider-f"> <span>People Powered Internet</span>  </h1>
             </div>
             </div>
             
             <div  className="full-screen-block">
             <div className="sliderTitleBlock rotated">
                     <h3 className= "homeSliderTitleTop white">Node Nexus Network</h3>
-                    <h1 className= "homeSliderTitle"> <span>Collective Intelligence Hosting</span>  </h1>
+                    <h1 className= "homeSliderTitle slider-f"> <span>Collective Intelligence Hosting</span>  </h1>
             </div>
             </div>
             { //<div   className="full-screen-block slider2_2">

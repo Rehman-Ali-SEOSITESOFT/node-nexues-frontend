@@ -1,6 +1,6 @@
 import React from 'react'
 import NewsletterForm from './NewsletterForm'
-function Newsletter1() {
+function Newsletter() {
     return (
         <>
            <section>
@@ -14,7 +14,7 @@ function Newsletter1() {
                                 <div className="section-block-title">
                                     <div className="section-title">   
                                         <article className="section-title-body">
-                                            <h1 className="head-title wow fadeInDown animated" data-wow-duration="1.5s">Newsletter</h1>
+                                            <h1 className="head-title wow fadeInDown animated" data-wow-duration="1.5s">Join US</h1>
                                             <div className="section-col wow fadeInUp animated" data-wow-duration="1.5s"></div>
                                             
                                             <NewsletterForm/>                                       
@@ -31,4 +31,4 @@ function Newsletter1() {
     )
 }
 
-export default Newsletter1
+export default Newsletter

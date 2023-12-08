@@ -20,7 +20,7 @@ function RoutesList() {
         />
         <Route path="/users" element={<Home4 />} />
         <Route
-          path="/asset"
+          path="/assets"
           element={<Home5 />}
         />
         <Route

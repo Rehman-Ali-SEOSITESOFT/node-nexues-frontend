@@ -18,12 +18,13 @@ function About() {
                       through resilient, secure, and equitable data management.
                       <br />
                       <br />
-                      Our Purpose: We act as a digital sanctuary, offering
+                      <span className="sub-text">Our Purpose:</span> We act as a digital sanctuary, offering
                       robust protection and intelligent for your Authentic
                       Intelligence
                       <br />
                       <br />
-                      How we do it: We leverage advanced decentralized
+                      <span className="sub-text">How we do it: </span>
+                      We leverage advanced decentralized
                       technologies and collaborative global expertise to deliver
                       fault tolerance for humanity.
                       <br />

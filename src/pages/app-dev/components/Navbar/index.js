@@ -74,7 +74,7 @@ function Navbar3() {
                 Application Developer
               </span>
               <Link
-                to="/application-developer"
+                to="/app-dev"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -87,7 +87,7 @@ function Navbar3() {
               <span className="bg-icon">4</span>
               <span className="rotated-title effect">Users</span>
               <Link
-                to="/user"
+                to="/users"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -102,7 +102,7 @@ function Navbar3() {
                 Asset Backend Providers
               </span>
               <Link
-                to="/assets-backend-providers"
+                to="/assets"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -115,7 +115,7 @@ function Navbar3() {
               <span className="bg-icon">6</span>
               <span className="rotated-title">Authentic Intelligence</span>
               <Link
-                to="/authentic-intelligence"
+                to="/authentic"
                 className="link-item"
                 smooth={false}
                 duration={800}

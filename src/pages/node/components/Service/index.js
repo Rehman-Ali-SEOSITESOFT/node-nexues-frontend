@@ -92,8 +92,8 @@ function Service1() {
                             </span>
                           </div>
 
-                          <h2>Sprite</h2>
-                          <h4>Personal & SMB</h4>
+                          <h2 className="h2-f">Sprite</h2>
+                          <h4 className="h4-f">Personal & SMB</h4>
                         </div>
                         <div className="fuct my-block-inner">
                           <div className="icon-d">
@@ -105,8 +105,8 @@ function Service1() {
                               />
                             </span>
                           </div>
-                          <h2>Centro</h2>
-                          <h4>Mid Market</h4>
+                          <h2 className="h2-f">Centro</h2>
+                          <h4 className="h4-f">Mid Market</h4>
                         </div>
                         
                       </div>
@@ -125,8 +125,8 @@ function Service1() {
                               />
                             </span>
                           </div>
-                          <h2>Titan</h2>
-                          <h4>Enterprise</h4>
+                          <h2 className="h2-f">Titan</h2>
+                          <h4 className="h4-f">Enterprise</h4>
                         </div>
                         <div className="fuct my-block-inner">
                           <div className="icon-d">
@@ -138,8 +138,8 @@ function Service1() {
                               />
                             </span>
                           </div>
-                          <h2>Nations</h2>
-                          <h4>MSPs</h4>
+                          <h2 className="h2-f">Nations</h2>
+                          <h4 className="h4-f">MSPs</h4>
                         </div>
                       </div>
                     </article>

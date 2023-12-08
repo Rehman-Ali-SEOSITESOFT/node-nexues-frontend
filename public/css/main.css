@@ -5805,14 +5805,14 @@ span.dropcap {
   margin-bottom: 18px !important;
 }
 
-.server-img{
+.server-img {
   height: 180px;
   width: 180px;
   cursor: pointer;
 }
 
 
-.player-sec{
+.player-sec {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5835,56 +5835,116 @@ span.dropcap {
   outline: none;
   padding: 20px;
 }
-.my-block{
+
+.my-block {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.my-block-inner{
+.my-block-inner {
   width: 216px !important;
 }
 
-.link-chat{
+.link-chat {
   text-decoration: underline;
 }
 
-.link-chat:hover{
+.link-chat:hover {
   text-decoration: underline;
 
+}
+
+.txt-c {
+  color: #fff !important;
+}
+
+.title-l {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.slider-f {
+  font-size: 50px !important;
+}
+
+#MyNewsletter {
+  padding-top: 35px !important;
+}
+
+.sub-text {
+  color: #222222 !important;
+  font-weight: 700 !important;
+  font-size: 18px;
 }
 
 @media (max-width: 470px) {
-  .sliderTitleBlock .homeSliderTitleTop{
+  .sliderTitleBlock .homeSliderTitleTop {
     font-size: 18px !important;
     line-height: 22px;
 
   }
-  .sliderTitleBlock .homeSliderTitle{
-    font-size: 32px !important ;
+
+  .sliderTitleBlock .homeSliderTitle {
+    font-size: 32px !important;
     line-height: 46px;
   }
-  
+
 }
 
 @media (max-width: 912px) {
-  .padding-txt{
-    padding-left: 35px  !important;
-    padding-right: 35px  !important;
+  .padding-txt {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
   }
-  
+
 }
 
 @media (max-width: 450px) {
-  .padding-txt{
-    padding-left: 45px  !important;
-    padding-right: 45px  !important;
-  }
-  .pad-l{
-    padding-left: 10px !important;
-  }
-  .pad-r{
-    padding-right:  10px !important;
+  .padding-txt {
+    padding-left: 45px !important;
+    padding-right: 45px !important;
   }
 
+  .pad-l {
+    padding-left: 10px !important;
+  }
+
+  .pad-r {
+    padding-right: 10px !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .about-img-block .about-img {
+    position: absolute;
+    width: 26%;
+    left: 31px;
+    bottom: 0px;
+    top: 89%;
+  }
+
+  .block {
+    padding: 50px 0px 210px;
+    position: relative;
+  }
+
+  .about-img-block .about-img-info {
+    position: absolute;
+    width: 94%;
+    right: 0;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 98%;
+    height: min-content;
+
+  }
+
+  .h2-f{
+    font-size: 32px !important;
+  }
+  .h4-f{
+    font-size: 12px !important;
+  }
 }

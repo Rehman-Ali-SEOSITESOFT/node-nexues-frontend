@@ -71,7 +71,7 @@ function Navbar5() {
               <span className="bg-icon">3</span>
               <span className="rotated-title">Application Developer</span>
               <Link
-                to="/application-developer"
+                to="/app-dev"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -84,7 +84,7 @@ function Navbar5() {
               <span className="bg-icon">4</span>
               <span className="rotated-title">Users</span>
               <Link
-                to="/user"
+                to="/users"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -97,7 +97,7 @@ function Navbar5() {
               <span className="bg-icon">5</span>
               <span className="rotated-title">Asset Backend Providers</span>
               <Link
-                to="/assets-backend-providers"
+                to="/assets"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -110,7 +110,7 @@ function Navbar5() {
               <span className="bg-icon">6</span>
               <span className="rotated-title">Authentic Intelligence </span>
               <Link
-                to="/authentic-intelligence"
+                to="/authentic"
                 className="link-item"
                 smooth={false}
                 duration={800}
