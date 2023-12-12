@@ -69,7 +69,6 @@ function About() {
                   <div className="about-img-info widget-block dark mb-0">
                     <h4 className="widget-title dark">OUR WHITE PAPER</h4>
                     <p>
-                      {" "}
                       Download our Company's Committment to the Net Citizen of
                       tomorrow, today.
                     </p>

@@ -245,7 +245,8 @@
     left: 0;
     right: 0;
     margin: 0;
-    background: rgba(34, 34, 34, 0.9);
+    background: rgba(18, 20, 24, 0.9);
+    /* background: rgba(34, 34, 34, 0.9); */
   }
   #header .navbar-single .navbar-nav-single li {
     width: 100%;
@@ -274,7 +275,8 @@
   .bg-50-r {
     width: 100%;
     left: 0;
-    background-color: rgba(34, 34, 34, 0.9);
+    background-color: rgba(18, 20, 24, 0.9);
+    /* background-color: rgba(34, 34, 34, 0.9); */
     overflow: hidden;
   }
   .bg-50-r:after {
@@ -285,7 +287,8 @@
   }
   .bg-50-l {
     width: 100%;
-    background-color: rgba(34, 34, 34, 0.9);
+    background-color: rgba(18,20, 24, 0.9);
+    /* background-color: rgba(34, 34, 34, 0.9); */
     overflow: hidden;
   }
   .bg-50-l:after {

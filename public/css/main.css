@@ -553,11 +553,11 @@ Slider
 }
 
 .full-screen-block.slider1_1 {
-  background-image: url(../img/preview/slider/slider_4_1.jpg);
+  background-image: url(../img/preview/slider/slider_node1.jpg);
 }
 
 .full-screen-block.slider1_2 {
-  background-image: url(../img/preview/slider/slider_4_2.jpg);
+  background-image: url(../img/preview/slider/slider_node2.jpg);
 }
 
 .full-screen-block.slider2_1 {
@@ -1662,7 +1662,7 @@ video#cover-video {
 }
 
 #header .navbar-default .navbar-nav .work {
-  background-image: url("../img/bg/bg5.jpg");
+  background-image: url("../img/bg/bgbond.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -1680,7 +1680,7 @@ video#cover-video {
 }
 
 #header .navbar-default .navbar-nav .auth {
-  background-image: url("../img/bg/bg6.jpg");
+  background-image: url("../img/bg/bg18.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -1736,7 +1736,8 @@ video#cover-video {
 }
 
 #header .navbar-default.light .navbar-nav li .rotated-title {
-  color: rgba(34, 34, 34, 0.9);
+  color: rgba(18,20,24, 0.9);
+  /* color: rgba(34, 34, 34, 0.9); */
 }
 
 #header .navbar-default.light .navbar-nav li.no-bg-shadow {
@@ -3467,7 +3468,8 @@ section:hover .img-rotate img {
 
 .portfolio-cell .portfolio-item:hover .image-overlay {
   border: none;
-  background-color: rgba(34, 34, 34, 0.9);
+  background-color: rgba(19, 20, 24, 0.9);
+  /* background-color: rgba(34, 34, 34, 0.9); */
   opacity: 1;
 }
 
@@ -3637,7 +3639,8 @@ section:hover .img-rotate img {
   transition: all 0.3s ease;
   padding: 25px 25px 20px;
   display: block;
-  background-color: rgba(34, 34, 34, 0.9);
+  /* background-color: rgba(34, 34, 34, 0.9); */
+  background-color: rgba(18, 20, 24, 0.9);
 }
 
 .author-block .figure-hover-overlay .author-information p {
@@ -3735,11 +3738,13 @@ section:hover .img-rotate img {
 }
 
 .progress.dark .skill-value {
-  color: rgba(34, 34, 34, 0.9);
+  /* color: rgba(34, 34, 34, 0.9); */
+  color: rgba(18, 20, 24, 0.9);
 }
 
 .progress.dark .skill-value span {
-  color: rgba(34, 34, 34, 0.9);
+  /* color: rgba(34, 34, 34, 0.9); */
+  color: rgba(18, 20, 24, 0.9);
 }
 
 .fucts-block {
@@ -4395,7 +4400,8 @@ textarea:focus {
    Ajax style
    ========================================================================== */
 .ajax-block {
-  background-color: rgba(34, 34, 34, 0.9);
+  /* background-color: rgba(34, 34, 34, 0.9); */
+  background-color: rgba(18, 20, 24, 0.9);
   margin: 30px auto;
   padding: 100px 75px;
   position: relative;
@@ -4472,7 +4478,8 @@ textarea:focus {
 }
 
 .panel-group .panel-heading {
-  background: rgba(34, 34, 34, 0.9);
+  background: rgba(18, 20, 24, 0.9);
+  /* background: rgba(34, 34, 34, 0.9); */
   border: none;
   border-radius: 0;
   padding: 0;
@@ -4699,7 +4706,8 @@ textarea:focus {
 }
 
 .widget-block.dark .widget-title {
-  color: rgba(34, 34, 34, 0.9);
+  color: rgba(18, 20, 24, 0.9);
+  /* color: rgba(34, 34, 34, 0.9); */
 }
 
 .widget-block.dark p {
@@ -4907,7 +4915,8 @@ textarea:focus {
 }
 
 .client-say.default h4 {
-  color: rgba(34, 34, 34, 0.9);
+  color: rgba(18, 20, 24, 0.9);
+  /* color: rgba(34, 34, 34, 0.9); */
 }
 
 .client-say.default h4 span {
@@ -5309,14 +5318,15 @@ textarea:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(34, 34, 34, 0.9);
-  /* background-color: rgba(18 20 24 / 97%); */
+  /* background-color: rgba(34, 34, 34, 0.9); */
+  background-color: rgba(18, 20, 24, 0.9);
 }
 
 .bg-50-l:after {
   content: "";
   border-top: 100px solid transparent;
-  border-left: 100px solid rgba(34, 34, 34, 0.9);
+  /* border-left: 100px solid rgba(34, 34, 34, 0.9); */
+  border-left: 100px solid rgba(18, 20, 24, 0.9);
   border-right: 100px solid transparent;
   position: absolute;
   left: 100%;
@@ -5327,7 +5337,8 @@ textarea:focus {
 .bg-50-l:before {
   content: "";
   border-bottom: 100px solid transparent;
-  border-left: 100px solid rgba(34, 34, 34, 0.9);
+  /* border-left: 100px solid rgba(34, 34, 34, 0.9); */
+  border-left: 100px solid rgba(18, 20, 24, 0.9);
   border-right: 100px solid transparent;
   position: absolute;
   left: 100%;
@@ -5351,8 +5362,8 @@ textarea:focus {
   height: 100%;
   left: 50%;
   top: 0;
-  background-color: rgba(34, 34, 34, 0.9);
-  /* background-color: rgba(18, 20, 24, 0.9); */
+  /* background-color: rgba(34, 34, 34, 0.9); */
+  background-color: rgba(18, 20, 24, 0.9);
 
 }
 
@@ -5360,7 +5371,8 @@ textarea:focus {
   content: "";
   border-top: 100px solid transparent;
   border-left: 100px solid transparent;
-  border-right: 100px solid rgba(34, 34, 34, 0.9);
+  border-right: 100px solid rgba(18, 20, 24, 0.9);
+  /* border-right: 100px solid rgba(34, 34, 34, 0.9); */
   position: absolute;
   left: -200px;
   bottom: 0;
@@ -5371,7 +5383,8 @@ textarea:focus {
   content: "";
   border-bottom: 100px solid transparent;
   border-left: 100px solid transparent;
-  border-right: 100px solid rgba(34, 34, 34, 0.9);
+  border-right: 100px solid rgba(18, 20, 24, 0.9);
+  /* border-right: 100px solid rgba(34, 34, 34, 0.9); */
   position: absolute;
   left: -200px;
   top: 0;

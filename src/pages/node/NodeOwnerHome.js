@@ -1,14 +1,14 @@
 import React from "react";
-import Header1 from "./components/Header";
-import Welcome1 from "./components/Welcome";
-import About1 from "./components/About";
-import Service1 from "./components/Service";
-import Portfolio1 from "./components/Portfolio";
-import Contact1 from "./components/Contact";
-import Newsletter1 from "./components/Newsletter";
-import Map from "./components/Map";
-import Footer1 from "./components/Footer";
-import SimpleSlider1 from "./components/Slider";
+import Header1 from "../../components/Header/Header1";
+import Welcome1 from "../../components/Welcome/Welcome1";
+import About1 from "../../components/About/About1";
+import Service1 from "../../components/Service/Service1";
+import Portfolio1 from "../../components/Portfolio/Portfolio1";
+import Contact1 from "../../components/Contact/Contact1";
+import Newsletter1 from "../../components/Newsletter/Newsletter1";
+import Map from "../../components/Map";
+import Footer1 from "../../components/Footer/Footer1";
+import SimpleSlider1 from "../../components/Sliders/Slider1";
 function Home1() {
   return (
     <>

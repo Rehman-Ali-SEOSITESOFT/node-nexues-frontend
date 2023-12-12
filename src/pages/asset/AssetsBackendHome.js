@@ -1,17 +1,17 @@
 import React from "react";
-import Portfolio2 from "./components/Portfolio";
-import Blogs2 from "./components/Blogs/Blogs2";
-import Clients from "./components/Clients";
-import Newsletter2 from "./components/Newsletter";
-import Map from "./components/Map";
+import Portfolio2 from "../../components/Portfolio/Portfolio5";
+import Blogs2 from "../../components/Blogs/Blogs5";
+import Clients from "../../components/Clients";
+import Newsletter2 from "../../components/Newsletter/Newsletter5";
+import Map from "../../components/Map";
 import bg_vide from "../../videos/bigway.mp4";
-import SimpleSlider5 from "./components/Slider";
-import Welcome5 from "./components/Welcome";
-import About5 from "./components/About";
-import Service5 from "./components/Service";
-import Contact5 from "./components/Contact";
-import Footer5 from "./components/Footer";
-import Header5 from "./components/Header";
+import SimpleSlider5 from "../../components/Sliders/Slider5";
+import Welcome5 from "../../components/Welcome/Welcome5";
+import About5 from "../../components/About/About5";
+import Service5 from "../../components/Service/Service5";
+import Contact5 from "../../components/Contact/Contact5";
+import Footer5 from "../../components/Footer/Footer5";
+import Header5 from "../../components/Header/Header5";
 function Home5() {
   return (
     <>
