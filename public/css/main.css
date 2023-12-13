@@ -3808,6 +3808,7 @@ section:hover .img-rotate img {
   color: #911d36;
   font-weight: 900;
   font-family: 'Opensans', sans-serif;
+  padding-top: 10px;
 }
 
 .about-img-block {
@@ -5946,13 +5947,13 @@ span.dropcap {
     padding-right: 50px !important;
   }
 
-  .pad-l {
+  /* .pad-l {
     padding-left: 10px !important;
   }
 
   .pad-r {
     padding-right: 10px !important;
-  }
+  } */
 
 }
 
