@@ -43,7 +43,7 @@ function About1() {
 
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-6 col-sm-12 d-flex align-items-center">
+            <div className="col-md-6 col-sm-12  align-items-center">
               <div className="pad-l-45 pad-r-45">
                 <div className="section-block-title">
                   <div className="section-title">
