@@ -5942,8 +5942,8 @@ span.dropcap {
 
 @media (max-width: 450px) {
   .padding-txt {
-    padding-left: 45px !important;
-    padding-right: 45px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
   }
 
   .pad-l {
