@@ -63,7 +63,7 @@ function Featured() {
                   </p>
                 </article>
 
-                <article className="widget-block d-lg-none d-xl-block">
+                <article className="widget-block ">
                   <h4 className="widget-title title-l">SECURITY & INNOVATION</h4>
                   <p>
                     We dramatically enhance data security and AI efficiency,
