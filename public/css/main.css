@@ -120,7 +120,8 @@ html {
 }
 
 body {
-  background-color: rgba(34, 34, 34, 0.95);
+  /* background-color: rgba(34, 34, 34, 0.95); */
+  background-color: rgba(18, 20, 24, 0.95);
   font-family: "Opensans";
   font-size: 14px;
   overflow-x: hidden;
@@ -2344,7 +2345,8 @@ section.bg-non-fixed {
 }
 
 .section-sub-title .section-title-body.white .head-text {
-  color: #999;
+  color: #fff;
+  /* color: #999; */
 }
 
 .section-sub-title .section-title-body {
