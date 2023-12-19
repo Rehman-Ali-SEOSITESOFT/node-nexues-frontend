@@ -13,11 +13,13 @@ import {
   LinkedinIcon,
   TwitterIcon,
 } from "react-share";
+import LearnMoreAboutSection from "./LearnMoreAbout";
 
 function Footer4() {
   return (
     <>
       <footer id="footer">
+        <LearnMoreAboutSection/>
         <div className="container">
           <div className="row">
             <div className="col-md-12">

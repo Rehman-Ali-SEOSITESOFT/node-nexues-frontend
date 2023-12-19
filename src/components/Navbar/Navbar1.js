@@ -93,7 +93,7 @@ function Navbar1() {
                 DUAL BONDS{" "}
               </Link>
             </li>
-            <li className="contact">
+            <li className="contact2">
               <span className="bg-icon">5</span>
               <span className="rotated-title">CONTACt</span>
               <Link

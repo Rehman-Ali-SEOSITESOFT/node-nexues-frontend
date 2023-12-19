@@ -95,7 +95,7 @@ function Navbar5() {
             </li>
             <li className="contact">
               <span className="bg-icon">5</span>
-              <span className="rotated-title">Asset Backend Providers</span>
+              <span className="rotated-title">Asset Backed Providers</span>
               <Link
                 to="/assets"
                 className="link-item"
@@ -103,7 +103,7 @@ function Navbar5() {
                 duration={800}
                 activeClass="active"
               >
-                Asset Backend
+                Asset Backed
               </Link>
             </li>
             <li className="auth">

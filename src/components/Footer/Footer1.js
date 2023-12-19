@@ -1,10 +1,12 @@
 import React from 'react';
+import LearnMoreAboutSection from './LearnMoreAbout';
 
 
 function Footer1() {
     return (
         <>
         <footer id="footer">
+          <LearnMoreAboutSection/>
             <div  className="pad-l-45 pad-r-45">
                 <div className="container-fluid">
                     <div className="row">

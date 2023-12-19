@@ -99,7 +99,7 @@ function Navbar3() {
             <li className="contact">
               <span className="bg-icon">5</span>
               <span className="rotated-title effect">
-                Asset Backend Providers
+                Asset Backed Providers
               </span>
               <Link
                 to="/assets"
@@ -108,7 +108,7 @@ function Navbar3() {
                 duration={800}
                 activeClass="active"
               >
-                Asset Backend
+                Asset Backed
               </Link>
             </li>
             <li className="auth">

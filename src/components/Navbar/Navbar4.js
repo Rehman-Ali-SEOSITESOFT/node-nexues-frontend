@@ -104,7 +104,7 @@ function Navbar4() {
               <span className="bg-nav-gr"></span>
               <span className="bg-icon">5</span>
               <span className="rotated-title effect">
-                Asset Backend Providers
+                Asset Backed Providers
               </span>
               <Link
                 to="/assets"
@@ -113,10 +113,10 @@ function Navbar4() {
                 duration={800}
                 activeClass="active"
               >
-                Asset Backend
+                Asset Backed
               </Link>
             </li>
-            <li className="contact">
+            <li className="auth">
               <span className="bg-nav-gr"></span>
               <span className="bg-icon">6</span>
               <span className="rotated-title effect">

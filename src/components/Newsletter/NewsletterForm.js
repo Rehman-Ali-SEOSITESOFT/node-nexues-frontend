@@ -55,7 +55,7 @@ function NewsletterForm() {
           <div id="NewsletterErrResults"></div>
           <div id="NewsletterResult"></div>
           <div id="NewsletterContent">
-            <div>
+            <div className="d-flex align-center justify-content-center">
               <img
                 src="/img/preview/join-us/novus_large.png"
                 height={120}
