@@ -5,15 +5,13 @@ function Header2() {
   const [fixHeader, setFixed] = useState(false);
   //let winHeight = window.innerHeight;
   const fixedHeader = () => {
-    if (window.innerWidth > 768) {
+   
       if (window.scrollY >= window.innerHeight - 100) {
         setFixed(true);
       } else {
         setFixed(false);
       }
-    } else {
-      setFixed(false);
-    }
+   
   };
 
   window.addEventListener("scroll", fixedHeader);
