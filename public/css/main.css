@@ -6099,7 +6099,12 @@ span.dropcap {
   top: 0;
   left: 0;
 }
-
+.back-to-top-home{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #911d36 ;
+}
 
 @media (max-width: 1200px) {
  

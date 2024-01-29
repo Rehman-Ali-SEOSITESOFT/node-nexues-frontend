@@ -8,7 +8,7 @@ function Welcome4() {
       <div className="block color-scheme-white light">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-6 col-lg-6">
+            <div className="col-md-12 col-lg-6">
               <div className="section-sub-title">
                 <article className="section-title-body">
                   <h1 className="head-title">
@@ -43,7 +43,7 @@ function Welcome4() {
                 </article>
               </div>
             </div>
-            <div className="col-md-6 col-lg-6">
+            <div className="col-md-12 col-lg-6">
               <div className="section-sub-title center video-home2">
                 <div className="player-wrapper-home">
                   <ReactPlayer

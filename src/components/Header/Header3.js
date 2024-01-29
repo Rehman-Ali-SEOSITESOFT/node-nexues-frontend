@@ -27,7 +27,9 @@ function Header3() {
         smooth={false}
         duration={800}
       >
-        <i className="ion-ios-arrow-thin-up"></i>
+           <div className='back-to-top-home'>
+           <i className="ion-ios-arrow-thin-up"></i>
+           </div>
       </Link>
       <header id="header" className="header-top-fixed">
         <div className="full-screen-block">

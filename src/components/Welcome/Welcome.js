@@ -7,7 +7,7 @@ function Welcome() {
       <div className="block color-scheme-1">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-6 col-lg-6">
+            <div className="col-md-12 col-lg-6">
               <div className="section-sub-title">
                 <article className="section-title-body white">
                   <h1 className="head-title">
@@ -27,7 +27,7 @@ function Welcome() {
                 </article>
               </div>
             </div>
-            <div className="col-md-6 col-lg-6">
+            <div className="col-md-12 col-lg-6">
               <div className="section-sub-title center">
                 <div className="player-wrapper-home">
                   <ReactPlayer

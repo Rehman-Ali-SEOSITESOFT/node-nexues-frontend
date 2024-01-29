@@ -10,7 +10,7 @@ function Welcome1() {
         <div className="bg_object1 lax lax_preset_fadeIn:50:100 lax_preset_spin:4000:270  lax_preset_slideY:2500:700"></div>
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-md-6 col-lg-6">
+            <div className="col-md-12 col-lg-6">
               <div className="pad-l-45 pad-r-45">
                 <div className="section-block-title">
                   <div className="section-title">
@@ -53,7 +53,7 @@ function Welcome1() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-6">
+            <div className="col-md-12 col-lg-6">
               <div className="pad-l-45 pad-r-45">
                 <div className="section-block-title ">
                 <div className="section-title">
