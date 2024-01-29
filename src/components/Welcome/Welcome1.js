@@ -1,4 +1,6 @@
 import React from "react";
+import ReactPlayer from "react-player";
+import Video from "../../videos/bigway.mp4";
 
 function Welcome1() {
   return (
@@ -7,8 +9,8 @@ function Welcome1() {
         <div className="bg-50-l not-before"></div>
         <div className="bg_object1 lax lax_preset_fadeIn:50:100 lax_preset_spin:4000:270  lax_preset_slideY:2500:700"></div>
         <div className="container-fluid">
-          <div className="row  justify-content-center">
-            <div className="col-md-10 col-lg-8">
+          <div className="row justify-content-center">
+            <div className="col-md-6 col-lg-6">
               <div className="pad-l-45 pad-r-45">
                 <div className="section-block-title">
                   <div className="section-title">
@@ -47,6 +49,28 @@ function Welcome1() {
                         CLICK ON THE ICONS BELOW TO LEARN MORE:
                       </p>
                     </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-6">
+              <div className="pad-l-45 pad-r-45">
+                <div className="section-block-title ">
+                <div className="section-title">
+                    <article className="section-title-body">
+                  <div className="player-wrapper-home">
+                    <ReactPlayer
+                      className="react-player"
+                      width="100%"
+                      height="90%"
+                      url={Video}
+                      playing
+                      controls={true}
+                      muted
+                      loop={true}
+                    />
+                  </div>
+                  </article>
                   </div>
                 </div>
               </div>

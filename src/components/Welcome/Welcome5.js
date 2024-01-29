@@ -1,16 +1,17 @@
 import React from "react";
-
+import ReactPlayer from "react-player";
+import Video from "../../videos/bigway.mp4";
 function Welcome5() {
   return (
     <section>
       <div className="block color-scheme-1">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-10 col-lg-9">
-              <div className="section-sub-title center">
+            <div className="col-md-6 col-lg-6">
+              <div className="section-sub-title">
                 <article className="section-title-body white">
                   <h1 className="head-title">
-                    <span>Anema</span> is modern & creative{" "}
+                    <span>Anema</span> is modern & creative
                     <span>One Page Template</span> that suits any type of
                     Personal Resume, Portfolio, Business and Other styles,
                     minimal and quality.
@@ -24,6 +25,22 @@ function Welcome5() {
                     mollit anim id est laborum.
                   </p>
                 </article>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-6">
+              <div className="section-sub-title center video-home2">
+                <div className="player-wrapper-home">
+                  <ReactPlayer
+                    className="react-player"
+                    width="100%"
+                    height="100%"
+                    url={Video}
+                    playing
+                    controls={true}
+                    muted
+                    loop={true}
+                  />
+                </div>
               </div>
             </div>
           </div>

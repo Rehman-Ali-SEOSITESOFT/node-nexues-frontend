@@ -44,7 +44,7 @@ function Navbar2() {
           >
             <li className="current home">
               <span className="bg-icon">
-                <i className="ion-ios-home-outline"></i>
+                <i className="ion-ios-star-outline"></i>
               </span>
               <span className="rotated-title effect">Node Owner</span>
               <Link
@@ -59,7 +59,7 @@ function Navbar2() {
             </li>
             <li className="about">
               <span className="bg-icon">
-                <i className="ion-ios-person-outline"></i>
+                <i className="ion-ios-star-outline"></i>
               </span>
               <span className="rotated-title effect">Coalition</span>
               <Link
@@ -91,7 +91,7 @@ function Navbar2() {
             </li>
             <li className="work">
               <span className="bg-icon">
-                <i className="ion-ios-photos-outline"></i>
+                <i className="ion-ios-star-outline"></i>
               </span>
               <span className="rotated-title effect">Users</span>
               <Link
@@ -106,7 +106,7 @@ function Navbar2() {
             </li>
             <li className="contact">
               <span className="bg-icon">
-                <i className="ion-ios-chatboxes-outline"></i>
+                <i className="ion-ios-star-outline"></i>
               </span>
               <span className="rotated-title effect">
                 Asset Backed Providers
@@ -123,7 +123,7 @@ function Navbar2() {
             </li>
             <li className="auth">
               <span className="bg-icon">
-                <i className="ion-ios-telephone-outline"></i>
+                <i className="ion-ios-star-outline"></i>
               </span>
               <span className="rotated-title effect">
                 Authentic Intelligence
