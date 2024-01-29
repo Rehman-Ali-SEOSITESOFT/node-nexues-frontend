@@ -26,9 +26,9 @@ function Header() {
     return (
         <>
          
-        <Link to='home'  id="totop"  className={fixHeader?'d-block':'d-none'} smooth={false} duration={800}>
+        <a to='home'  id="totop"  className={fixHeader?'d-block':'d-none'} smooth={false} duration={800}>
             <i className="ion-ios-arrow-thin-up"></i>
-        </Link>
+        </a>
         <header id="header" className={fixHeader?'header-top-fixed':''}>
             <div className="full-screen-block">
                 <div className={fixHeader?'header-body header-body-fixed':'header-body'} id="header-body-fixed">

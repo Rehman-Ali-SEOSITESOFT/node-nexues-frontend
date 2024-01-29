@@ -9,7 +9,7 @@ import Map from "./../components/Map";
 import Footer from "./../components/Footer/Footer";
 import SimpleSlider from "./../components/Sliders/Slick-slider";
 import Newsletter from "../components/Newsletter/Newsletter";
-import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
+
 function Home() {
   return (
     <>
@@ -25,7 +25,7 @@ function Home() {
       <Newsletter/>
       <Map />
       <Footer />
-      <ScrollUpButton />
+
     </>
   );
 }
