@@ -42,7 +42,7 @@ function Portfolio1() {
                         data-wow-duration="1.5s"
                       ></div>
                       <p
-                        className="head-text wow fadeInUp animated"
+                        className="head-text wow fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
                         Investing in Node Nexus Network is more than a financial
@@ -57,14 +57,17 @@ function Portfolio1() {
                         technology but an investment in a better tomorrow.
                       </p>
                       <p
-                        className="head-text wow fadeInUp animated"
+                        className="head-text wow fadeInUp animated txt"
                         data-wow-duration="1.5s"
-                      >
-                        The Financial Incentive: High Yield and Growth Potential
-                        Fault Tolerance for Humanity Revolution Security and
-                        Innovation: The NNN Advantage
-                      </p>
-                      </article>
+                      ></p>
+                      <ul className="head-text wow p-m fadeInUp animated txt">
+                        <li>
+                          <span className="">The Financial Incentive:</span> High Yield and Growth
+                          Potential Fault Tolerance for Humanity Revolution
+                        </li>
+                        <li><span className="">Security and Innovation:</span>  The NNN Advantage</li>
+                      </ul>
+                    </article>
                   </div>
                 </div>
               </div>

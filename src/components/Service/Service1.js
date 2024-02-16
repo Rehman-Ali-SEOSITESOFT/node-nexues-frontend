@@ -1,5 +1,7 @@
-import React from "react";
-
+import React , {useState} from "react";
+import Modal from "react-modal";
+import ReactPlayer from "react-player";
+Modal.setAppElement("#root");
 const services = [
   {
     _id: "001",
@@ -40,6 +42,8 @@ const services = [
 ];
 
 function Service1() {
+  const [ModalIsOpen, setModalIsOpen] = useState(false);
+  const [url, setUrl] = useState("");
   return (
     <>
       <section id="services" className="bg-non-fixed">
@@ -78,16 +82,43 @@ function Service1() {
                         diverse and powerful, ensuring unparalleled data
                         custodianship and accessibility.
                       </p>
-                      <p
-                        className="head-text wow fadeInUp animated txt padding-txt"
-                        data-wow-duration="1.5s"
-                      >
-                        Sustainable Infrastructure DeepThought Technology: AI
-                        Agnostic The Vogon Decentralized Cloud: A Paradigm Shift{" "}
-                      </p>
+                   
 
-                      {/* <div className="h25"></div>
-                      <div
+                      <div className="h25"></div>
+                      <div className="block-feature block-feature2">
+                        <i className="ion-ios-pie-outline mypie"
+                         onClick={() => {
+                          setModalIsOpen(true);
+                          setUrl(
+                            "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                          );
+                        }}
+                        ></i>
+                        <p  className="head-text wow fadeInUp animated txt  txt-padding">Sustainable Infrastructure</p>
+                      </div>
+                      <div className="block-feature block-feature2">
+                        <i 
+                         onClick={() => {
+                          setModalIsOpen(true);
+                          setUrl(
+                            "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                          );
+                        }}
+                        className="ion-ios-pie-outline mypie"></i>
+                        <p  className="head-text wow fadeInUp animated txt  txt-padding">DeepThought Technology: AI Agnostic</p>
+                      </div>
+                      <div className="block-feature block-feature2">
+                        <i 
+                         onClick={() => {
+                          setModalIsOpen(true);
+                          setUrl(
+                            "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                          );
+                        }}
+                        className="ion-ios-pie-outline mypie"></i>
+                        <p  className="head-text wow fadeInUp animated txt  txt-padding">The Vogon Decentralized Cloud: A Paradigm Shift</p>
+                      </div>
+                      {/* <div
                         className="fucts-block my-block wow fadeInUp animated pad-l"
                         data-wow-duration="1.5s"
                       >
@@ -174,6 +205,19 @@ function Service1() {
             </div>
           </div>
         </div>
+        <Modal
+        isOpen={ModalIsOpen}
+        onRequestClose={() => setModalIsOpen(false)}
+        className="popup-video"
+      >
+        <div className="player-sec">
+          <ReactPlayer url={url} playing={true} controls={true} />
+        </div>
+        <span
+          onClick={() => setModalIsOpen(false)}
+          className="close-btn"
+        ></span>
+      </Modal>
       </section>
     </>
   );

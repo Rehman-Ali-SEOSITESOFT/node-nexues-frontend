@@ -5808,6 +5808,10 @@ span.dropcap {
 }
 
 
+.block-feature2 {
+  padding: 0 0 1px 65px !important;
+}
+
 /* //// my custom css ///// */
 .ul-n {
   /* color: #999; */
@@ -6112,6 +6116,12 @@ span.dropcap {
   justify-content: center;
   flex-direction: column;
   height: 100%;
+}
+.mypie{
+   color: #fff !important;
+}
+.txt-padding{
+  padding-top: 14px;
 }
 @media (max-width: 1200px) {
  

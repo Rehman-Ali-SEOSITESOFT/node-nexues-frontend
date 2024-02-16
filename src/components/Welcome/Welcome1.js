@@ -67,10 +67,13 @@ function Welcome1() {
                         className="head-text wow p-m fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
-                        Unmute the video to learn more about: The Mission and
-                        Vision of NNN Global Reach and Strategic Presence Our
-                        Commitment to a Better Future
+                        Unmute the video to learn more about:
                       </p>
+                      <ul className="head-text wow p-m fadeInUp animated txt">
+                        <li>The Mission and Vision of NNN</li>
+                        <li>Global Reach and Strategic Presence</li>
+                        <li>Our Commitment to a Better Future</li>
+                      </ul>
                     </article>
                   </div>
                 </div>

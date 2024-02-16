@@ -101,9 +101,13 @@ function About1() {
                             data-wow-duration="1.5s"
                           >
                             Understanding the Infrastructure Bond The Security
-                            Token Offering: A lucrative option Rewards and Token
-                            Program
+                            Token Offering:
                           </p>
+                          <ul className="head-text wow p-m fadeInUp animated txt">
+                        <li> A lucrative option Rewards and Token
+                            Program</li>
+                        
+                      </ul>
                           {/* <p
                             className="head-text txt wow fadeInUp animated"
                             data-wow-duration="1.5s"
