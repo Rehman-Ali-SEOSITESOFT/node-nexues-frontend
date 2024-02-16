@@ -18,7 +18,7 @@ function Contact1() {
                         className="head-title wow fadeInDown animated"
                         data-wow-duration="1.5s"
                       >
-                        Contact
+                        REGISTER
                       </h1>
                       <div
                         className="section-col wow fadeInUp animated"
@@ -28,7 +28,7 @@ function Contact1() {
                         className="head-text wow fadeInUp animated"
                         data-wow-duration="1.5s"
                       >
-                        Contact us today to evolve from a Node to an Asset
+                        Register us today to evolve from a Node to an Asset
                         Backed Infrastructure.
                       </p>
                       <div className="h25"></div>
@@ -127,7 +127,7 @@ function Contact1() {
                   <div className="col-lg-6">
                     <div className="widget-block mobile-center">
                       <h4 className="widget-title">
-                        <i className="ion-android-chat"></i>Chat with Team:
+                        <i className="ion-android-chat"></i>CHAT WITH DEEP THOUGHT AI:
                       </h4>
                       <p>
                         <a

@@ -43,7 +43,7 @@ function Navbar1() {
           >
             <li className="current home">
               <span className="bg-icon">1</span>
-              <span className="rotated-title">Home</span>
+              <span className="rotated-title">OVERVIEW</span>
               <Link
                 to="home"
                 className="link-item "
@@ -51,12 +51,12 @@ function Navbar1() {
                 duration={800}
                 activeClass="active"
               >
-                HOME
+                OVERVIEW
               </Link>
             </li>
             <li className="about">
               <span className="bg-icon">2</span>
-              <span className="rotated-title">ABOUT</span>
+              <span className="rotated-title">INVESTMENT</span>
               <Link
                 to="about"
                 className="link-item"
@@ -64,12 +64,12 @@ function Navbar1() {
                 duration={800}
                 activeClass="active"
               >
-                ABOUT
+              INVESTMENT
               </Link>
             </li>
             <li className="service">
               <span className="bg-icon">3</span>
-              <span className="rotated-title">NODE SERVER</span>
+              <span className="rotated-title">TERMS</span>
               <Link
                 to="services"
                 className="link-item"
@@ -77,12 +77,12 @@ function Navbar1() {
                 duration={800}
                 activeClass="active"
               >
-                NODE SERVER
+              TERMS
               </Link>
             </li>
             <li className="work">
               <span className="bg-icon">4</span>
-              <span className="rotated-title">DUAL BONDS</span>
+              <span className="rotated-title">TECHNOLOGY</span>
               <Link
                 to="portfolio"
                 className="link-item"
@@ -90,12 +90,12 @@ function Navbar1() {
                 duration={800}
                 activeClass="active"
               >
-                DUAL BONDS{" "}
+               TECHNOLOGY
               </Link>
             </li>
             <li className="contact2">
               <span className="bg-icon">5</span>
-              <span className="rotated-title">CONTACt</span>
+              <span className="rotated-title">INVEST TODAY</span>
               <Link
                 to="contact"
                 className="link-item"
@@ -103,7 +103,7 @@ function Navbar1() {
                 duration={800}
                 activeClass="active"
               >
-                CONTACT
+                INVEST TODAY
               </Link>
             </li>
           </ul>

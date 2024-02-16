@@ -35,7 +35,7 @@ function Portfolio1() {
                         className="head-title wow fadeInDown animated"
                         data-wow-duration="1.5s"
                       >
-                        Node Server Sizes
+                        WHY SHOULD YOU INVEST
                       </h1>
                       <div
                         className="section-col wow fadeInUp animated"
@@ -45,53 +45,26 @@ function Portfolio1() {
                         className="head-text wow fadeInUp animated"
                         data-wow-duration="1.5s"
                       >
-                        Our Node Servers come in Sprite, Centro, Titan and
-                        Nations compute cabilities. Click on each one of the
-                        icons to learn more.
+                        Investing in Node Nexus Network is more than a financial
+                        decision; it's a step towards a safer, decentralized,
+                        sustainable, and more secure innovative future. With a
+                        solid foundation in green technology and AI and a
+                        commitment to reshaping the digital infrastructure
+                        landscape, NNN offers investors a unique blend of
+                        security, potential high returns, and the opportunity to
+                        contribute to a fairer, more efficient technological
+                        future. Discover why NNN is not just an investment in
+                        technology but an investment in a better tomorrow.
                       </p>
-                      <div>
-                        <img
-                          src="/img/preview/node-servers/sprite_embossed.png"
-                          className="server-img"
-                          onClick={() => {
-                            setModalIsOpen(true);
-                            setUrl(
-                              "https://player.vimeo.com/video/891925239?h=ad14e51cf4&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                            );
-                          }}
-                        />
-                        <img
-                          onClick={() => {
-                            setModalIsOpen(true);
-                            setUrl(
-                              "https://player.vimeo.com/video/891925598?h=2273d703c4&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                            );
-                          }}
-                          src="/img/preview/node-servers/centro_embossed.png"
-                          className="server-img"
-                        />
-                        <img
-                          onClick={() => {
-                            setModalIsOpen(true);
-                            setUrl(
-                              "https://player.vimeo.com/video/891925942?h=d90ba06bb3&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                            );
-                          }}
-                          src="/img/preview/node-servers/titans_embossed.png"
-                          className="server-img"
-                        />
-                        <img
-                          onClick={() => {
-                            setModalIsOpen(true);
-                            setUrl(
-                              "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                            );
-                          }}
-                          src="/img/preview/node-servers/nations_embossed.png"
-                          className="server-img"
-                        />
-                      </div>
-                    </article>
+                      <p
+                        className="head-text wow fadeInUp animated"
+                        data-wow-duration="1.5s"
+                      >
+                        The Financial Incentive: High Yield and Growth Potential
+                        Fault Tolerance for Humanity Revolution Security and
+                        Innovation: The NNN Advantage
+                      </p>
+                      </article>
                   </div>
                 </div>
               </div>

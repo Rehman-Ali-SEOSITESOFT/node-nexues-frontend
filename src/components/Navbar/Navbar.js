@@ -46,7 +46,7 @@ function Navbar() {
               <span className="bg-icon">
                 <i className="ion-ios-star-outline"></i>
               </span>
-              <span className="rotated-title effect">Node Owner</span>
+              <span className="rotated-title effect">OVERVIEW</span>
               <Link
                 to="/node"
                 className="link-item "

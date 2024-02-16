@@ -19,7 +19,7 @@ function Welcome1() {
                         className="head-title wow fadeInDown animated"
                         data-wow-duration="1.5s"
                       >
-                        WELCOME TO NODE SERVERS
+                        OVERVIEW OF NODE NEXUS
                       </h1>
                       <div
                         className="section-col wow fadeInUp animated"
@@ -29,24 +29,47 @@ function Welcome1() {
                         className="head-text p-m wow fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
-                        A NODE NEXUS NETWORK IS A DYNAMIC, INTERCONNECTED WEB OF
-                        SERVER INFRASTRUCTURE THAT DECENTRALIZES DIGITAL
-                        OPERATIONS, OFFERING ENHANCED SECURITY, EFFICIENCY,
-                        AUTHENTIC INTELLIGENCE AND GLOBAL CONNECTIVITY FOR ALL
-                        ITS USERS.
+                        Dive into the heart of innovation with Node Nexus
+                        Network (NNN), a trailblazer redefining the digital
+                        landscape through pioneering advancements in cloud
+                        computing and artificial intelligence.
                       </p>
                       <p
                         className="head-text wow p-m fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
-                        OUR INFRASTRUCTURE BOND IS BACKED BY 4 TIERS OF NODE
-                        SERVERS.
+                        As a central figure in the tech revolution, NNN is
+                        committed to delivering sustainable, cutting-edge
+                        solutions that promise to reshape how we interact with
+                        digital infrastructure.
                       </p>
                       <p
                         className="head-text wow p-m fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
-                        CLICK ON THE ICONS BELOW TO LEARN MORE:
+                        With a global footprint extending across 16 regions and
+                        a mission to offer high-quality, cost-effective cloud
+                        services, NNN is not just leading the charge; it's
+                        setting new benchmarks for excellence and innovation in
+                        the tech sector.
+                      </p>
+                      <p
+                        className="head-text wow p-m fadeInUp animated txt"
+                        data-wow-duration="1.5s"
+                      >
+                        An "Infrastructure Bond" is a unique investment
+                        opportunity where you can support and benefit from NNN's
+                        growth. At the same time, a "Security Token Offering"
+                        represents a digital share in the company, allowing you
+                        to own a piece of the future of technology.
+                      </p>
+                      <p
+                        className="head-text wow p-m fadeInUp animated txt"
+                        data-wow-duration="1.5s"
+                      >
+                        Unmute the video to learn more about: The Mission and
+                        Vision of NNN Global Reach and Strategic Presence Our
+                        Commitment to a Better Future
                       </p>
                     </article>
                   </div>
@@ -54,23 +77,23 @@ function Welcome1() {
               </div>
             </div>
             <div className="col-md-12 col-lg-6">
-              <div className="pad-l-45 pad-r-45">
+              <div className="pad-l-45 pad-r-45 video-d">
                 <div className="section-block-title ">
-                <div className="section-title">
+                  <div className="section-title">
                     <article className="section-title-body">
-                  <div className="player-wrapper-home">
-                    <ReactPlayer
-                      className="react-player"
-                      width="100%"
-                      height="90%"
-                      url={Video}
-                      playing
-                      controls={true}
-                      muted
-                      loop={true}
-                    />
-                  </div>
-                  </article>
+                      <div className="player-wrapper-home">
+                        <ReactPlayer
+                          className="react-player"
+                          width="100%"
+                          height="90%"
+                          url={Video}
+                          playing
+                          controls={true}
+                          muted
+                          loop={true}
+                        />
+                      </div>
+                    </article>
                   </div>
                 </div>
               </div>

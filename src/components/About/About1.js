@@ -52,7 +52,7 @@ function About1() {
                         className="head-title wow fadeInDown animated"
                         data-wow-duration="1.5s"
                       >
-                        ABOUT
+                        WHAT IS THE INVESTMENT
                       </h1>
                       <div
                         className="section-col wow fadeInUp animated"
@@ -71,26 +71,40 @@ function About1() {
                             className="head-text txt wow  fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
-                            Calling this a Node Sale is like saying a power
-                            plant is just a battery.
+                            Embark on a unique investment journey with the Node
+                            Nexus Network Infrastructure Bond, a golden
+                            opportunity to secure a stake in the future of
+                            technology. This investment isn't just about
+                            yielding returns; it's about being part of a
+                            revolutionary movement toward sustainable,
+                            decentralized digital solutions. With attractive
+                            terms and a robust growth trajectory, investing in
+                            NNN offers a blend of security, innovation, and the
+                            potential for significant financial rewards.
                           </p>
                           <p
                             className="head-text txt  wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
-                            When you buy a server on the NNN cloud, you’re not
-                            just getting a slice of tech real estate; you’re
-                            plugging into the heart of the digital future.
+                            An "Infrastructure Bond" with Node Nexus Network is
+                            your chance to invest in tomorrow's technology,
+                            offering secure returns and supporting sustainable,
+                            innovative digital solutions. At the same time, a
+                            "Security Token Offering" allows you to opt into
+                            this revolutionary tech movement digitally. This may
+                            offer less security than a bond, but its higher risk
+                            provides a much higher return because it combines
+                            financial growth with cutting-edge development.
                           </p>
                           <p
                             className="head-text txt wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
-                            This is about owning a piece of the infrastructure
-                            that will power Web 5.0, the next revolution of the
-                            internet.
+                            Understanding the Infrastructure Bond The Security
+                            Token Offering: A lucrative option Rewards and Token
+                            Program
                           </p>
-                          <p
+                          {/* <p
                             className="head-text txt wow fadeInUp animated"
                             data-wow-duration="1.5s"
                           >
@@ -113,7 +127,7 @@ function About1() {
                           >
                             This isn’t just a Node Sale; it’s a passport to the
                             future of the internet.
-                          </p>
+                          </p> */}
                         </div>
                       </div>
                     </article>
@@ -128,34 +142,35 @@ function About1() {
                   data-wow-duration="1.5s"
                 >
                   <div className="container">
-                    <h4 className="widget-title">
-                      FAULT TOLERANCE FOR HUMANITY
-                    </h4>
+                    <h4 className="widget-title">WHAT ARE THE TERMS</h4>
                     <p className="p-m ">
-                      Imagine an online world where authenticity and safety
-                      reign supreme, a digital haven safeguarding your data from
-                      the darker corners of the web.
+                      The Node Nexus Network Infrastructure Bond is designed
+                      with the investor in mind, offering terms that balance
+                      reward with security and options. Investors who choose our
+                      bond can expect a high annual yield backed by the
+                      stability of $ 175 Million in Gold and the innovation of
+                      NNN's technological advancements.
                     </p>
                     <p className="p-m ">
-                      This is the essence of fault tolerance for humanity.
+                      Those who opt-in to transform their ownership directly
+                      into the node server infrastructure start receiving
+                      payments immediately in rewards and tokens for a higher
+                      yield in a Token on the Ethereum Blockchain.
                     </p>
                     <p className="">
-                      Journey back to a protected online environment where your
-                      data finds sanctuary and the world is backed by precious
-                      matels.
-                    </p>
-                    <p className="">
-                      Here's why you should join our Dual Infrastructure Bond:
+                      As a potential investor in Node Nexus Network, you can
+                      expect to earn a significantly higher return on your
+                      investment each year than standard savings or investment
+                      options.
                     </p>
 
                     <ul className="ul-n opensans">
                       <li>
-                        <span className="fb-bold">Data Sanctuary:</span> We're
-                        building a refuge for your data, shielding it from the
-                        risks of the web's darker side. Your information is safe
-                        and secure here.
+                        <span className="fb-bold">Duration and Yield:</span>  A
+                        Comprehensive Overview The 2-Year Balloon Note Explained
+                        Cash Yield vs. Node Server Conversion Options
                       </li>
-                      <li>
+                      {/* <li>
                         <strong className="fb-bold">Backup Plans:</strong> We're
                         not relying on a single point of failure. By
                         decentralization, we ensure that your data remains
@@ -194,7 +209,7 @@ function About1() {
                         We're not facing this challenge alone. A team of diverse
                         experts - from cloud, AI, cybersecurity to ethics - is
                         working together to keep your online world secure.
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
 

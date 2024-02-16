@@ -57,7 +57,7 @@ function Service1() {
                         className="head-title wow fadeInDown animated"
                         data-wow-duration="1.5s"
                       >
-                        Node Server Categories
+                        WHAT IS THE TECHNOLOGY
                       </h1>
                       <div
                         className="section-col wow fadeInUp animated"
@@ -67,16 +67,26 @@ function Service1() {
                         className="head-text wow fadeInUp animated txt padding-txt"
                         data-wow-duration="1.5s"
                       >
-                        In summary, the four tiers of Node Servers on NNN –
-                        Sprite, Centro, Tian, and Nations – are crucial in
-                        democratizing access to decentralized technology,
-                        ensuring scalability, and fostering a diverse,
-                        collaborative, and economically impactful network that
-                        aligns with the varied needs and capabilities of SMBs,
-                        mid-market players, large enterprises, and national
-                        entities.
+                        Its proprietary technology is at the forefront of the
+                        Node Nexus Network's success - a testament to its
+                        innovative spirit and commitment to redefining the tech
+                        landscape. From the groundbreaking decentralized global
+                        infrastructure and hosting facilities in 16 regions
+                        worldwide to its quantum ledger database and DeepThought
+                        technology, creating an AI-agnostic Decentralized
+                        Collective Intelligence. NNN's technological arsenal is
+                        diverse and powerful, ensuring unparalleled data
+                        custodianship and accessibility.
                       </p>
-                      <div className="h25"></div>
+                      <p
+                        className="head-text wow fadeInUp animated txt padding-txt"
+                        data-wow-duration="1.5s"
+                      >
+                        Sustainable Infrastructure DeepThought Technology: AI
+                        Agnostic The Vogon Decentralized Cloud: A Paradigm Shift{" "}
+                      </p>
+
+                      {/* <div className="h25"></div>
                       <div
                         className="fucts-block my-block wow fadeInUp animated pad-l"
                         data-wow-duration="1.5s"
@@ -141,7 +151,7 @@ function Service1() {
                           <h2 className="h2-f">Nations</h2>
                           <h4 className="h4-f">MSPs</h4>
                         </div>
-                      </div>
+                      </div> */}
                     </article>
                   </div>
                 </div>
