@@ -28,7 +28,7 @@ function Contact1() {
                         className="head-text wow fadeInUp animated"
                         data-wow-duration="1.5s"
                       >
-                        Register us today to evolve from a Node to an Asset
+                        Register with us today to evolve from a Node to an Asset
                         Backed Infrastructure.
                       </p>
                       <div className="h25"></div>
