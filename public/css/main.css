@@ -2153,6 +2153,8 @@ section.bg-non-fixed {
   padding-top: 100px;
 }
 
+
+
 .section-block-title.left {
   text-align: left;
 
@@ -5870,7 +5872,13 @@ span.dropcap {
   width: 180px;
   cursor: pointer;
 }
+.section-block-title2 {
+  padding-top: 0px !important;
+}
 
+.pb-b-node{
+  padding-bottom:  0px !important;
+}
 
 .player-sec {
   display: flex;

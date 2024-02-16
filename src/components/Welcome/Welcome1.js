@@ -10,11 +10,11 @@ function Welcome1() {
         <div className="bg_object1 lax lax_preset_fadeIn:50:100 lax_preset_spin:4000:270  lax_preset_slideY:2500:700"></div>
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-md-12 col-lg-6">
+          <div className="col-md-12 col-lg-12">
               <div className="pad-l-45 pad-r-45">
                 <div className="section-block-title">
                   <div className="section-title">
-                    <article className="section-title-body">
+                    <article className="section-title-body pb-b-node">
                       <h1
                         className="head-title wow fadeInDown animated"
                         data-wow-duration="1.5s"
@@ -25,6 +25,18 @@ function Welcome1() {
                         className="section-col wow fadeInUp animated"
                         data-wow-duration="1.5s"
                       ></div>
+                    
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-12 col-lg-6">
+              <div className="pad-l-45 pad-r-45">
+                <div className="section-block-title section-block-title2">
+                  <div className="section-title">
+                    <article className="section-title-body">
+                    
                       <p
                         className="head-text p-m wow fadeInUp animated txt"
                         data-wow-duration="1.5s"
@@ -81,7 +93,7 @@ function Welcome1() {
             </div>
             <div className="col-md-12 col-lg-6">
               <div className="pad-l-45 pad-r-45 video-d">
-                <div className="section-block-title ">
+                <div className="section-block-title section-block-title2">
                   <div className="section-title">
                     <article className="section-title-body">
                       <div className="player-wrapper-home">

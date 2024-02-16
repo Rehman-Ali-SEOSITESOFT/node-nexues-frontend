@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import bg_vide from "../../videos/bigway.mp4";
+import bg_vide from "../../videos/investment.mp4";
 function About1() {
   const [security, setSecurity] = useState(0);
   const [fair, setFair] = useState(0);
