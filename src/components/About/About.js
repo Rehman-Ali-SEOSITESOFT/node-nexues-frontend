@@ -14,18 +14,23 @@ function About() {
                       The mission of<span> Node Nexus Network:</span>
                     </h1>
                     <p className="head-text">
-                    NNN delivers a decentralized infrastructure, enhanced by Vogon decentralized cloud technology, across a global reach spanning 16 regions and 251 nations. 
-
+                      NNN delivers a decentralized infrastructure, enhanced by
+                      Vogon decentralized cloud technology, across a global
+                      reach spanning 16 regions and 251 nations.
                       <br />
                       <br />
-                      Our purpose is to empower users and businesses to contribute, collaborate, and grow within its ecosystem that provides an AI Agnostic cloud that generates Collective Intelligence derived from the Authentic Intelligence surfaced through human innovation and experiences.
-
+                      Our purpose is to empower users and businesses to
+                      contribute, collaborate, and grow within its ecosystem
+                      that provides an AI Agnostic cloud that generates
+                      Collective Intelligence derived from the Authentic
+                      Intelligence surfaced through human innovation and
+                      experiences.
                       <br />
                       <br />
                       <span className="sub-text">How we do it: </span>
-                      We leverage advanced decentralized
-                      technologies and collaborative global expertise to deliver
-                      fault tolerance for humanity.
+                      We leverage advanced decentralized technologies and
+                      collaborative global expertise to deliver fault tolerance
+                      for humanity.
                       <br />
                       <br />
                       We provide a stable, secure and intelligent digital

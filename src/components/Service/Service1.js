@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import Modal from "react-modal";
 import ReactPlayer from "react-player";
 Modal.setAppElement("#root");
@@ -82,107 +82,50 @@ function Service1() {
                         diverse and powerful, ensuring unparalleled data
                         custodianship and accessibility.
                       </p>
-                   
 
                       <div className="h25"></div>
                       <div className="block-feature block-feature2">
-                        <i className="ion-ios-pie-outline mypie"
-                         onClick={() => {
-                          setModalIsOpen(true);
-                          setUrl(
-                            "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                          );
-                        }}
+                        <i
+                          className="ion-ios-pie-outline mypie"
+                          onClick={() => {
+                            setModalIsOpen(true);
+                            setUrl(
+                              "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                            );
+                          }}
                         ></i>
-                        <p  className="head-text wow fadeInUp animated txt  txt-padding">Sustainable Infrastructure</p>
+                        <p className="head-text wow fadeInUp animated txt  txt-padding">
+                          Sustainable Infrastructure
+                        </p>
                       </div>
                       <div className="block-feature block-feature2">
-                        <i 
-                         onClick={() => {
-                          setModalIsOpen(true);
-                          setUrl(
-                            "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                          );
-                        }}
-                        className="ion-ios-pie-outline mypie"></i>
-                        <p  className="head-text wow fadeInUp animated txt  txt-padding">DeepThought Technology: AI Agnostic</p>
+                        <i
+                          onClick={() => {
+                            setModalIsOpen(true);
+                            setUrl(
+                              "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                            );
+                          }}
+                          className="ion-ios-pie-outline mypie"
+                        ></i>
+                        <p className="head-text wow fadeInUp animated txt  txt-padding">
+                          DeepThought Technology: AI Agnostic
+                        </p>
                       </div>
                       <div className="block-feature block-feature2">
-                        <i 
-                         onClick={() => {
-                          setModalIsOpen(true);
-                          setUrl(
-                            "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                          );
-                        }}
-                        className="ion-ios-pie-outline mypie"></i>
-                        <p  className="head-text wow fadeInUp animated txt  txt-padding">The Vogon Decentralized Cloud: A Paradigm Shift</p>
+                        <i
+                          onClick={() => {
+                            setModalIsOpen(true);
+                            setUrl(
+                              "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                            );
+                          }}
+                          className="ion-ios-pie-outline mypie"
+                        ></i>
+                        <p className="head-text wow fadeInUp animated txt  txt-padding">
+                          The Vogon Decentralized Cloud: A Paradigm Shift
+                        </p>
                       </div>
-                      {/* <div
-                        className="fucts-block my-block wow fadeInUp animated pad-l"
-                        data-wow-duration="1.5s"
-                      >
-                        <div className="fuct my-block-inner">
-                          <div className="icon-d">
-                            <span className="icon-d-inner">
-                              <img
-                                src="/img/preview/sprite_icon.png"
-                                className="service-logo-m"
-                                alt="sprite-icon"
-                              />
-                            </span>
-                          </div>
-
-                          <h2 className="h2-f">Sprite</h2>
-                          <h4 className="h4-f">Personal & SMB</h4>
-                        </div>
-                        <div className="fuct my-block-inner">
-                          <div className="icon-d">
-                            <span className="icon-d-inner">
-                              <img
-                                src="/img/preview/centro_icon.png"
-                                className="service-logo-m"
-                                alt="centro-icon"
-                              />
-                            </span>
-                          </div>
-                          <h2 className="h2-f">Centro</h2>
-                          <h4 className="h4-f">Mid Market</h4>
-                        </div>
-                        
-                      </div>
-                      <div
-                        className="fucts-block my-block wow fadeInUp animated pad-r"
-                        data-wow-duration="1.5s"
-                      >
-                      
-                        <div className="fuct my-block-inner">
-                          <div className="icon-d">
-                            <span className="icon-d-inner">
-                              <img
-                                src="/img/preview/titan_icon.png"
-                                className="service-logo-m"
-                                alt="titan-icon"
-                              />
-                            </span>
-                          </div>
-                          <h2 className="h2-f">Titan</h2>
-                          <h4 className="h4-f">Enterprise</h4>
-                        </div>
-                        <div className="fuct my-block-inner">
-                          <div className="icon-d">
-                            <span className="icon-d-inner">
-                              <img
-                                src="/img/preview/nations_icon.png"
-                                className="service-logo-m"
-                                alt="nations-icon"
-                              />
-                            </span>
-                          </div>
-                          <h2 className="h2-f">Nations</h2>
-                          <h4 className="h4-f">MSPs</h4>
-                        </div>
-                      </div> */}
                     </article>
                   </div>
                 </div>
@@ -206,18 +149,18 @@ function Service1() {
           </div>
         </div>
         <Modal
-        isOpen={ModalIsOpen}
-        onRequestClose={() => setModalIsOpen(false)}
-        className="popup-video"
-      >
-        <div className="player-sec">
-          <ReactPlayer url={url} playing={true} controls={true} />
-        </div>
-        <span
-          onClick={() => setModalIsOpen(false)}
-          className="close-btn"
-        ></span>
-      </Modal>
+          isOpen={ModalIsOpen}
+          onRequestClose={() => setModalIsOpen(false)}
+          className="popup-video"
+        >
+          <div className="player-sec">
+            <ReactPlayer url={url} playing={true} controls={true} />
+          </div>
+          <span
+            onClick={() => setModalIsOpen(false)}
+            className="close-btn"
+          ></span>
+        </Modal>
       </section>
     </>
   );

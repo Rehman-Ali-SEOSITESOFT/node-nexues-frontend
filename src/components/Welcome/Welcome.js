@@ -16,15 +16,6 @@ function Welcome() {
                     Fault Tolerance for Humanity
                   </h1>
                 </article>
-
-                {/* <article className="section-title-body white">
-                  <h1 className="head-title center-txt">
-                    <span>Node Nexus Network</span>
-                    <br />
-                    Fault Tolerance for Humanity
-                  </h1>
-             
-                </article> */}
               </div>
             </div>
             <div className="col-md-12 col-lg-6">

@@ -5,13 +5,11 @@ function Header1() {
   const [fixHeader, setFixed] = useState(false);
   //let winHeight = window.innerHeight;
   const fixedHeader = () => {
-    
-      if (window.scrollY >= window.innerHeight - 100) {
-        setFixed(true);
-      } else {
-        setFixed(false);
-      }
-   
+    if (window.scrollY >= window.innerHeight - 100) {
+      setFixed(true);
+    } else {
+      setFixed(false);
+    }
   };
 
   window.addEventListener("scroll", fixedHeader);
@@ -25,9 +23,9 @@ function Header1() {
         smooth={false}
         duration={800}
       >
-          <div className='back-to-top-home'>
-           <i className="ion-ios-arrow-thin-up"></i>
-           </div>
+        <div className="back-to-top-home">
+          <i className="ion-ios-arrow-thin-up"></i>
+        </div>
       </Link>
       <header id="header" className={fixHeader ? "header-top-fixed" : ""}>
         <div className="full-screen-block">

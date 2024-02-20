@@ -65,7 +65,7 @@ function Featured() {
                   <h4 className="widget-title title-l">SECURITY & INNOVATION</h4>
                   <p>
                     We dramatically enhance data security and AI efficiency,
-                    making it an ideal choice for businesses and homes.{" "}
+                    making it an ideal choice for businesses and homes.
                   </p>
                 </article>
               </div>

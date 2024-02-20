@@ -104,34 +104,10 @@ function About1() {
                             Token Offering:
                           </p>
                           <ul className="head-text wow p-m fadeInUp animated txt">
-                        <li> A lucrative option Rewards and Token
-                            Program</li>
-                        
-                      </ul>
-                          {/* <p
-                            className="head-text txt wow fadeInUp animated"
-                            data-wow-duration="1.5s"
-                          >
-                            You’re not just buying a server; you’re investing in
-                            a piece of the puzzle that will connect and empower
-                            billions, in a network backed by the bedrock of gold
-                            and silver.
-                          </p>
-                          <p
-                            className="head-text txt wow fadeInUp animated"
-                            data-wow-duration="1.5s"
-                          >
-                            It’s a stake in a new digital economy, with the
-                            potential for returns as expansive as the cloud
-                            itself.
-                          </p>
-                          <p
-                            className="head-text txt wow fadeInUp animated"
-                            data-wow-duration="1.5s"
-                          >
-                            This isn’t just a Node Sale; it’s a passport to the
-                            future of the internet.
-                          </p> */}
+                            <li>
+                              A lucrative option Rewards and Token Program
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </article>
@@ -170,50 +146,10 @@ function About1() {
 
                     <ul className="ul-n opensans">
                       <li>
-                        <span className="fb-bold">Duration and Yield:</span>  A
+                        <span className="fb-bold">Duration and Yield:</span> A
                         Comprehensive Overview The 2-Year Balloon Note Explained
                         Cash Yield vs. Node Server Conversion Options
                       </li>
-                      {/* <li>
-                        <strong className="fb-bold">Backup Plans:</strong> We're
-                        not relying on a single point of failure. By
-                        decentralization, we ensure that your data remains
-                        intact even when unexpected issues arise.
-                      </li>
-                      <li>
-                        <strong className="fb-bold">Adaptability:</strong> We're
-                        always ready to evolve and adapt to new challenges to
-                        keep your data secure in an ever-changing digital
-                        landscape.
-                      </li>
-                      <li>
-                        <strong className="fb-bold">Being Prepared:</strong>{" "}
-                        We've got plans in place. Our emergency response
-                        strategies, resource reserves, and effective leadership
-                        ensure your data's protection no matter the
-                        circumstances.
-                      </li>
-                      <li>
-                        <strong className="fb-bold">
-                          Global Collaboration:
-                        </strong>{" "}
-                        Some online risks are global in scope, demanding
-                        cooperation. We're uniting as a global force on the
-                        Vogon Cloud to combat issues that threaten online
-                        safety.
-                      </li>
-                      <li>
-                        <strong className="fb-bold">Thinking Long-Term:</strong>{" "}
-                        Our focus isn't just on the present; it's on securing a
-                        safer digital future. We're making choices that protect
-                        your data for generations to come.
-                      </li>
-                      <li>
-                        <strong className="fb-bold">Team of Experts:</strong>{" "}
-                        We're not facing this challenge alone. A team of diverse
-                        experts - from cloud, AI, cybersecurity to ethics - is
-                        working together to keep your online world secure.
-                      </li> */}
                     </ul>
                   </div>
 
