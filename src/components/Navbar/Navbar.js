@@ -54,7 +54,7 @@ function Navbar() {
                 duration={800}
                 activeClass="active"
               >
-                Node Owner
+                OVERVIEW
               </Link>
             </li>
             <li className="about">

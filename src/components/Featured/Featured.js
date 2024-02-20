@@ -29,7 +29,7 @@ function Featured() {
                 <img
                   alt=""
                   className="img-fluid"
-                  src="img/preview/feature.png"
+                  src="img/preview/feature.jpg"
                 />
               </div>
             </div>
@@ -55,11 +55,9 @@ function Featured() {
             <div className="col-lg-3  col-md-6  order-md-2  order-lg-3">
               <div className="feature">
                 <article className="widget-block">
-                  <h4 className="widget-title title-l">TECH-METAL BONDS</h4>
+                  <h4 className="widget-title title-l">BOND OR TOKEN?</h4>
                   <p>
-                    We combine digital innovation with the security of precious
-                    metals like gold and silver for a stable and trustworthy
-                    future.
+                  Our digital innovation provides the security of gold for a stable and trustworthy future.
                   </p>
                 </article>
 

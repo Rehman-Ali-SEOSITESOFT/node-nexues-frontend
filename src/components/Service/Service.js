@@ -3,41 +3,36 @@ const services = [
   {
     _id: "001",
     classIcon: "ion-ios-pie-outline",
-    title: "NODE OWNER",
-    text: "Own the infrastructure that will power Web 5.0",
+    title: "HIGH ANNUAL YIELD",
+    text: "NNN offers an impressive 12.5% annual yield, making it an attractive option for investors seeking lucrative returns",
   },
   {
     _id: "002",
     classIcon: "ion-ios-pie-outline",
-
-    title: "COALITION",
-    text: "Global, Regional, local, business and personal coalitions.",
+    title: "FLEXIBLE PAYOUTS",
+    text: "Investors can receive payouts in digital currency and convert yields into operational node servers, offering a unique way to participate in the digital revolution.",
   },
   {
     _id: "003",
     classIcon: "ion-ios-pie-outline",
-
-    title: "DEVELOPERS",
-    text: " Build what you want and when you want decentralized",
+    title: "GOLD BACKED",
+    text: "Your investment is secured with $ 175 M in gold, providing security and stability that are rare in digital investments.",
   },
   {
     _id: "004",
     classIcon: "ion-ios-pie-outline",
-
-    title: "USERS",
-    text: " Get paid for being you.",
+    title: "GREEN MEETS AI",
+    text: "NNN is at the forefront of integrating green technology and AI, aligning with global sustainability goals and technological advancements.",
   },
   {
     _id: "005",
     classIcon: "ion-ios-pie-outline",
-
-    title: "ASSET BACKED",
-    text: "Dual Bond backing of our Infrastructure",
+    title: "DUAL PROGRESS",
+    text: "Investing means earning financial returns that support improving the world through sustainable and innovative technology.",
   },
   {
     _id: "006",
     classIcon: "ion-ios-pie-outline",
-
     title: "AUTHENTIC INTELLIGENCE",
     text: "Own the infrastructure that will power Web 5.0",
   },
@@ -67,7 +62,7 @@ function Service() {
                       className="head-text wow fadeInUp animated"
                       data-wow-duration="1.5s"
                     >
-                      PROVIDING FAULT TOLERANCE FOR HUMANITY
+                      Here are six reasons that make NNN an unparalleled investment opportunity for those looking to capitalize on the digital age while supporting sustainable and innovative practices.
                     </p>
                   </article>
                 </div>

@@ -17,18 +17,18 @@ function Lightbox() {
                 </div>
                 <div className="col-xl-6 col-md-12">
                     <div className="single-portfolio-block">
-                        <a href="img/preview/blog3.jpg">
-                            <img  className="img-fluid" alt="Copper Backed" src="img/preview/blog22.jpg"/>
+                        <a href="img/preview/nnn_secure.jpg">
+                            <img  className="img-fluid" alt="SECURE CLOUD" src="img/preview/nnn_secure.jpg"/>
                         </a>
-                        <span className="single-portfolio-title">Copper Backed</span>
+                        <span className="single-portfolio-title">SECURE CLOUD</span>
                     </div>
                 </div>
                 <div className="col-xl-6 col-md-12">
                     <div className="single-portfolio-block">
-                        <a href="img/preview/blog20.jpg">
-                            <img  className="img-fluid" alt="Silver Backed" src="img/preview/blog20.jpg"/>
+                        <a href="img/preview/lucrative_returns.jpg">
+                            <img  className="img-fluid" alt="LUCRATIVE RETURNS" src="img/preview/nnn_secure.jpg"/>
                         </a>
-                        <span className="single-portfolio-title">Silver Backed</span>
+                        <span className="single-portfolio-title">LUCRATIVE RETURNS</span>
                     </div>
                 </div> 
                 <div className="col-xl-6 col-md-12">

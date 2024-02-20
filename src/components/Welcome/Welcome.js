@@ -7,22 +7,37 @@ function Welcome() {
       <div className="block color-scheme-1">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-12 col-lg-6">
-              <div className="section-sub-title">
+            <div className="col-md-12 col-lg-12">
+              <div className="section-sub-title center">
                 <article className="section-title-body white">
                   <h1 className="head-title">
                     <span>Node Nexus Network</span>
                     <br />
                     Fault Tolerance for Humanity
                   </h1>
+                </article>
 
+                {/* <article className="section-title-body white">
+                  <h1 className="head-title center-txt">
+                    <span>Node Nexus Network</span>
+                    <br />
+                    Fault Tolerance for Humanity
+                  </h1>
+             
+                </article> */}
+              </div>
+            </div>
+            <div className="col-md-12 col-lg-6">
+              <div className="section-sub-title ">
+                <article className="section-title-body white">
                   <p className="head-text">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    "Fault Tolerance for Humanity" embodies Node Nexus Network's
+                    (NNN) dedication to delivering decentralized cloud
+                    infrastructure technology that is resilient to protect your
+                    digital assets. It emphasizes creating robust cloud
+                    computing and AI systems capable of handling disruptions
+                    seamlessly and enhancing collective intelligence through
+                    cost-efficient cloud hosting.
                   </p>
                 </article>
               </div>

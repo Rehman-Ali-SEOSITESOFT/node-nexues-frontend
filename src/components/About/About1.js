@@ -60,9 +60,9 @@ function About1() {
                       ></div>
                       <div className="container about-con">
                         <img
-                          src="img/preview/node_logo.png"
+                          src="img/preview/decentralized_infrastructure.png"
                           alt="Node Logo"
-                          className="node-logo"
+                          className="node-logo img-b-n"
                           width="250"
                           height="250"
                         />

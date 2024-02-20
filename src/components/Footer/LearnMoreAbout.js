@@ -9,11 +9,11 @@ function LearnMoreAboutSection() {
             <div className="img-con">
               <img
                 className="inner-con-img"
-                src="img/bg/bg14.jpg"
+                src="img/bg/overiew.jpg"
                 alt="node owner"
               />
             </div>
-            <Link to="/node" className="btn  btn-i">Learn more about Node Owner</Link>
+            <Link to="/node" className="btn  btn-i">Learn more about Overview</Link>
           </div>
           <div className="card-i">
             <div className="img-con">

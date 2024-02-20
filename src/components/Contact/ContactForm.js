@@ -115,7 +115,7 @@ function ContactForm() {
                         </p>
                         <div className="clearfix"></div>
                         <div className="text-center">
-                            <input type="submit" className="contact-btn btn-move t2" value = "Send Message"/>
+                            <input type="submit" className="contact-btn btn-move t2" value  ="SIGN UP TODAY"/>
                             
                         </div>
                     </form>
