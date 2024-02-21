@@ -6,37 +6,37 @@ const services = [
   {
     _id: "001",
     classIcon: "ion-ios-pie-outline",
-    title: "Create a video placeholder popup:",
+    title: "Accessibility and Inclusivity",
     text: "The Sprite tier offers an accessible entry point for SMBs, allowing them to leverage the benefits of decentralized technology without a hefty investment. This inclusivity is vital for fostering a diverse and robust network.",
   },
   {
     _id: "002",
     classIcon: "ion-ios-pie-outline",
-    title: "Create a video placeholder popup:",
+    title: "Scalability and Flexibility",
     text: "As businesses grow or their needs evolve, they can move up the tiers, from Centro to Tian, and eventually to Nations. Each tier offers increased capabilities and resources, aligning with the scaling needs of mid-market and enterprise-level participants. This flexibility ensures that the NNN can accommodate businesses at different stages of their growth.",
   },
   {
     _id: "003",
     classIcon: "ion-ios-pie-outline",
-    title: "Create a video placeholder popup:",
+    title: "Customization and Specialization",
     text: "Different tiers cater to varying requirements of data handling, processing power, and network participation. For instance, the Tian and Nations tiers are equipped to handle the extensive demands of large enterprises and national entities, offering more advanced features and greater control.",
   },
   {
     _id: "004",
     classIcon: "ion-ios-pie-outline",
-    title: "Create a video placeholder popup:",
+    title: "Diverse Contribution and Synergy",
     text: "The tiered system encourages a wide range of participants to contribute to the NNN ecosystem. This diversity leads to a rich blend of perspectives and capabilities, enhancing the network's innovation and resilience.",
   },
   {
     _id: "005",
     classIcon: "ion-ios-pie-outline",
-    title: "Create a video placeholder popup:",
+    title: "Strategic Investment Opportunities",
     text: "Each tier represents a different level of investment and potential return, appealing to a variety of investors. SMBs can benefit from the cost-effective Sprite tier, while large enterprises and national entities might find strategic value in the higher tiers.",
   },
   {
     _id: "006",
     classIcon: "ion-ios-pie-outline",
-    title: "Create a video placeholder popup:",
+    title: "Wider Economic Impact",
     text: "By enabling participation at all levels, from SMBs to national entities, the NNN drives economic growth across the spectrum. It creates opportunities for businesses of all sizes to be part of the digital future, thus having a broader impact on the global economy.",
   },
 ];
@@ -137,7 +137,14 @@ function Service1() {
                   {services.map((service) => (
                     <div className="col-lg-12 col-xxl-6" key={service._id}>
                       <div className="block-feature">
-                        <i className={service.classIcon}></i>
+                        <i
+                        onClick={() => {
+                          setModalIsOpen(true);
+                          setUrl(
+                            "https://player.vimeo.com/video/891926238?h=9b2bb161a9&amp;badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                          );
+                        }}
+                        className={service.classIcon}></i>
                         <a href="/">{service.title}</a>
                         <p>{service.text}</p>
                       </div>
