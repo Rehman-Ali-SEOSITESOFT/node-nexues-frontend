@@ -143,18 +143,25 @@ function About1() {
                       investment each year than standard savings or investment
                       options.
                     </p>
+                    <p className="txt-bottom-n">
+                    DURATION & YIELD :
+                    </p>
 
                     <ul className="ul-n opensans">
                       <li>
-                        <span className="fb-bold">Duration and Yield:</span> A
-                        Comprehensive Overview The 2-Year Balloon Note Explained
-                        Cash Yield vs. Node Server Conversion Options
+                        Our 2-Year Balloon Note Explained 
+                         </li>
+                      <li>
+                        Bond Yield vs. Node Server
+                      </li>
+                      <li>
+                        Understanding the Options
                       </li>
                     </ul>
                   </div>
 
                   <div
-                    className="widget-block wow fadeInDown animated"
+                    className="widget-block wow fadeInDown animated mt-n"
                     data-wow-duration="1.5s"
                   >
                     <div className="clearfix"></div>

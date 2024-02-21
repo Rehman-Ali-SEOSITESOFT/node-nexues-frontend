@@ -6,17 +6,9 @@ function NewsletterForm() {
   const [NewsEmailError, setNewsEmailError] = useState({});
   const [ModalIsOpen, setModalIsOpen] = useState(false);
 
-  const doNewsSubmit = (e) => {
-    e.preventDefault();
-    const isNewsValid = newsletterValidate();
-    if (isNewsValid) {
-      //    ------   ready ---------
-
+  const doNewsSubmit = () => {
       setModalIsOpen(true);
-      // alert("Thanks you.")
 
-      //    -----------------------
-    }
   };
   const newsletterValidate = () => {
     const NewsEmailError = {};
@@ -43,7 +35,7 @@ function NewsletterForm() {
       >
         <div className="block-popup">
           <h4>Thank you.</h4>
-          <h4>you are added</h4>
+          <h4>For Joining Us</h4>
         </div>
         <span
           onClick={() => setModalIsOpen(false)}
@@ -77,21 +69,12 @@ function NewsletterForm() {
                 width={120}
               />
             </div>
-
-            <form
-              id="MyNewsletter"
-              name="MyNewsletter"
-              className="text-center"
-              method="post"
-              onSubmit={doNewsSubmit}
-            >
-              <div className="clearfix"></div>
-              <input
-                type="submit"
-                className="newsletter-btn btn-default white btn-move"
-                value="Select Program"
-              />
-            </form>
+              <button
+              onClick={() => doNewsSubmit()}
+              className="btn-default white btn-move">
+              Select Program
+              </button>
+           
           </div>
         </div>
       </div>

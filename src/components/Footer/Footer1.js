@@ -17,9 +17,9 @@ function Footer1() {
                     </article>
                   </div>
                   <p>
-                    Evolve today from a Node mindset to a partnership in a dual
-                    backed bond of global cloud infrastructure securitized by a
-                    precious metals bond!
+                    Evolve today from Web3 Node mindset to a partnership in a
+                    global Web5 Edge Compute Infrastructure Securitized by $ 175
+                    M in Gold
                   </p>
                 </article>
               </div>
@@ -32,7 +32,7 @@ function Footer1() {
                   </div>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="/">I want to learn more about Nodes.</a>
+                      <a href="/">I want to learn more about NNN</a>
                     </li>
                     <li>
                       <a href="/">I don't understand what a Coalition is.</a>
@@ -93,17 +93,20 @@ function Footer1() {
                     </li>
                     <li>
                       <a href="https://nnn.cloud/navigate">
-                        How does and Infastructure Bond work?
+                        How does a Bond work?
                       </a>
                     </li>
                     <li>
                       <a href="https://nnn.cloud/navigate">
-                        How does a Commodity Bond work?
+                        What does securitization mean?
                       </a>
                     </li>
                     <li>
+                      <a href="https://nnn.cloud/navigate">Is this Crypto?</a>
+                    </li>
+                    <li>
                       <a href="https://nnn.cloud/navigate">
-                        Is this a Crypto Blockchain deal a Commodity Bond work?
+                        Is this Blockchain?
                       </a>
                     </li>
                   </ul>
@@ -117,7 +120,7 @@ function Footer1() {
                   <ul className="footer-icon list-unstyled">
                     <li>
                       <a
-                        href="https://www.facebook.com/"
+                        href="https://www.facebook.com/people/Node-Nexus-Network/61553754122176/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -131,7 +134,7 @@ function Footer1() {
                     </li>
                     <li>
                       <a
-                        href="https://www.pinterest.com/"
+                        href="https://www.pinterest.com/nnnsocial/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -145,7 +148,7 @@ function Footer1() {
                     </li>
                     <li>
                       <a
-                        href="https://pk.linkedin.com/"
+                        href="https://www.linkedin.com/company/nnn-cloud"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -160,7 +163,7 @@ function Footer1() {
 
                     <li>
                       <a
-                        href="https://twitter.com/"
+                        href="https://twitter.com/nnn_onX"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -174,7 +177,7 @@ function Footer1() {
                     </li>
                     <li>
                       <a
-                        href="https://telegram.org/"
+                        href="https://t.me/+XBOemB3xGBNhYmMx"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -186,11 +189,27 @@ function Footer1() {
                         />
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/nnn_dcloud/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src="/img/preview/social-icons/nnn_instagram.png"
+                          height={35}
+                          width={35}
+                          alt="instagram"
+                        />
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="col-md-4 col-xs-12 col-sm-4">
                   <div className="footer-logo">
-                    <img src="img/logo-big-shop1.png" alt="NNN" />
+                    <a href="https://nnn.cloud" target="_blank">
+                      <img src="img/logo-big-shop1.png" alt="NNN" />
+                    </a>
                   </div>
                 </div>
               </div>

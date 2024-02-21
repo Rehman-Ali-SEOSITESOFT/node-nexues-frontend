@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo-big-shop.png";
 
 function Navbar1() {
@@ -9,8 +9,8 @@ function Navbar1() {
     <>
       <nav className="navbar navbar-default  navbar-expand-md">
         <div className="navbar-header">
-          <Link to="home" className="header-logo" smooth={false} duration={800}>
-            <span></span>
+          <Link to="/" className="header-logo" smooth={false} duration={800}>
+            {/* <span></span> */}
             <img src={logo} alt="logo" />
           </Link>
           <button

@@ -6146,6 +6146,18 @@ span.dropcap {
 .img-b-n{
   margin-bottom: 25px;
 }
+.text-sec-n{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.txt-bottom-n{
+  margin-bottom: 5px !important;
+}
+
+.mt-n{
+  margin-top: 100px
+}
 
 
 @media (max-width: 1200px) {

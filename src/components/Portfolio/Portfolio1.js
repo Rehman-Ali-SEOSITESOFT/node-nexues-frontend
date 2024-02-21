@@ -35,7 +35,7 @@ function Portfolio1() {
                         className="head-title wow fadeInDown animated"
                         data-wow-duration="1.5s"
                       >
-                        WHY SHOULD YOU INVEST
+                       WHY YOU SHOULD INVEST?
                       </h1>
                       <div
                         className="section-col wow fadeInUp animated"
@@ -45,28 +45,40 @@ function Portfolio1() {
                         className="head-text wow fadeInUp animated txt"
                         data-wow-duration="1.5s"
                       >
-                        Investing in Node Nexus Network is more than a financial
-                        decision; it's a step towards a safer, decentralized,
-                        sustainable, and more secure innovative future. With a
-                        solid foundation in green technology and AI and a
-                        commitment to reshaping the digital infrastructure
-                        landscape, NNN offers investors a unique blend of
-                        security, potential high returns, and the opportunity to
-                        contribute to a fairer, more efficient technological
-                        future. Discover why NNN is not just an investment in
-                        technology but an investment in a better tomorrow.
+                        CONTRIBUTE TO A SAFER, DECENTRALIZED, SUSTAINABLE, AND MORE SECURE INNOVATIVE FUTURE. 
                       </p>
                       <p
                         className="head-text wow fadeInUp animated txt"
                         data-wow-duration="1.5s"
-                      ></p>
-                      <ul className="head-text wow p-m fadeInUp animated txt">
-                        <li>
-                          <span className="">The Financial Incentive:</span> High Yield and Growth
-                          Potential Fault Tolerance for Humanity Revolution
-                        </li>
-                        <li><span className="">Security and Innovation:</span>  The NNN Advantage</li>
-                      </ul>
+                      >
+                        RESHAPE THE DIGITAL INFRASTRUCTURE LANDSCAPE THAT BUILDS A BETTER AI WHILE SUPPORTING ECONOMIC DEVELOPMENT AND CLEAN TECHNOLOGY
+                      </p>
+                      <p
+                        className="head-text wow fadeInUp animated txt"
+                        data-wow-duration="1.5s"
+                      >
+                        CONTRIBUTE TO A FAIRER, MORE EFFICIENT TECHNOLOGICAL FUTURE THAT COMBINES SECURITY WITH POTENTIAL FOR HIGH RETURNS
+                      </p>
+                      <p
+                        className="head-text wow fadeInUp animated txt"
+                        data-wow-duration="1.5s"
+                      >
+                         MAKE AN INVESTMENT IN THE TECHNICAL BACKBONE FOR A BETTER TOMORROW
+                      </p>
+                      <p
+                        className="head-text wow fadeInUp animated txt"
+                        data-wow-duration="1.5s"
+                      >
+                         BEYOND THE FINANCIAL INCENTIVE, EMBRACE A TECH REVOLUTION PROVIDING HIGH GROWTH POTENTIAL DELIVERING FAULT TOLERANCE FOR HUMANITY
+                       
+                      </p>
+                      <p
+                        className="head-text wow fadeInUp animated txt"
+                        data-wow-duration="1.5s"
+                      >
+                  
+                        THE NNN ADVANTAGE IS SECURITY, INNOVATION AND CONSERVATION</p>
+                  
                     </article>
                   </div>
                 </div>

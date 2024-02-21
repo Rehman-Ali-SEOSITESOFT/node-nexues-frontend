@@ -20,16 +20,14 @@ export default class SimpleSlider1 extends Component {
             <div className="sliderTitleBlock">
               <h3 className="homeSliderTitleTop">NODE NEXUS NETWORK</h3>
               <h1 className="homeSliderTitle">
-                {" "}
-                WELCOME TO <br /> <span>NODE SERVERS</span>
+                WELCOME TO <br /> <span>OVERVIEW</span>
               </h1>
             </div>
           </div>
           <div className="full-screen-block slider1_2">
             <div className="sliderTitleBlock">
-              <h3 className="homeSliderTitleTop">DUAL BONDS</h3>
+              <h3 className="homeSliderTitleTop">GOLD BACKED</h3>
               <h1 className="homeSliderTitle">
-                {" "}
                 INFRASTRUCTURE <br /> <span>& PRECIOUS METALS</span>
               </h1>
             </div>

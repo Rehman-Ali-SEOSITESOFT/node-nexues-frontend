@@ -18,17 +18,20 @@ function Welcome() {
                 </article>
               </div>
             </div>
-            <div className="col-md-12 col-lg-6">
+            <div className="col-md-12 col-lg-6 text-sec-n">
               <div className="section-sub-title ">
                 <article className="section-title-body white">
                   <p className="head-text">
                     "Fault Tolerance for Humanity" embodies Node Nexus Network's
                     (NNN) dedication to delivering decentralized cloud
                     infrastructure technology that is resilient to protect your
-                    digital assets. It emphasizes creating robust cloud
-                    computing and AI systems capable of handling disruptions
-                    seamlessly and enhancing collective intelligence through
-                    cost-efficient cloud hosting.
+                    digital assets.
+                  </p>
+                  <p className="head-text">
+                    It emphasizes creating robust cloud computing and AI systems
+                    capable of handling disruptions seamlessly and enhancing
+                    collective intelligence through cost-efficient cloud
+                    hosting.
                   </p>
                 </article>
               </div>

@@ -26,7 +26,7 @@ function Lightbox() {
                 <div className="col-xl-6 col-md-12">
                     <div className="single-portfolio-block">
                         <a href="img/preview/lucrative_returns.jpg">
-                            <img  className="img-fluid" alt="LUCRATIVE RETURNS" src="img/preview/nnn_secure.jpg"/>
+                            <img  className="img-fluid" alt="LUCRATIVE RETURNS" src="img/preview/lucrative_returns.jpg"/>
                         </a>
                         <span className="single-portfolio-title">LUCRATIVE RETURNS</span>
                     </div>
