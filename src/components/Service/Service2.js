@@ -3,32 +3,32 @@ const services = [
   {
     _id: "001",
     classIcon: "ion-ios-pie-outline",
-    title: "Accountment",
-    text: "Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud",
+    title: "ORGANIZATION",
+    text: "Data is organized, making it accessible and manageable globally.",
   },
   {
     _id: "002",
-    classIcon: "ion-ios-printer-outline",
-    title: "Printing",
-    text: "Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud",
+    classIcon: "ion-ios-pie-outline",
+    title: "QUANTUM RESISTANT",
+    text: "cutting-edge security protocols withstand the threats posed by quantum computing, protecting your data.",
   },
   {
     _id: "003",
-    classIcon: "ion-ios-reverse-camera-outline",
-    title: "Photographic",
-    text: "Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud",
+    classIcon: "ion-ios-pie-outline",
+    title: "GLOBAL ACCESSIBILITY",
+    text: "Coalitions operate in 16 regions and 251 nations and offer global reach, ensuring your data is accessible wherever you are.",
   },
   {
     _id: "004",
-    classIcon: "ion-ios-telephone-outline",
-    title: "Call Support",
-    text: "Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud",
+    classIcon: "ion-ios-pie-outline",
+    title: "COST EFFECTIVE",
+    text: "oalitions are accessible to businesses of all sizes, driving hosting services costs lower, saving 40 to 60% compared to traditional cloud services.",
   },
   {
     _id: "005",
-    classIcon: "ion-ios-flask-outline",
-    title: "Creative Design",
-    text: "Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud",
+    classIcon: "ion-ios-pie-outline",
+    title: "COLLECTIVE INTELLIGENCE",
+    text: "Coalitions empower friends, departments, companies, or governments to securely share with others to create a more powerful version of AI: Collective Intelligence",
   },
   {
     _id: "006",
@@ -47,7 +47,7 @@ function Service2() {
             <div className="section-sub-title center">
               <article className="section-title-body white">
                 <h1 className="head-title">
-                  Interesting <span>Services</span>{" "}
+                DECENTRALIZED <span>YET</span> ORGANIZED
                 </h1>
               </article>
             </div>

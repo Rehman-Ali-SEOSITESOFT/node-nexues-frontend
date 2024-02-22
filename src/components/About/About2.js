@@ -10,7 +10,7 @@ function About2() {
             <div className="section-sub-title center">
               <article className="section-title-body white">
                 <h1 className="head-title">
-                  About <span>Node</span> Nexus Network Coalition
+                Introducing <span>Coalitions</span> on Node Nexus Networks
                 </h1>
               </article>
             </div>
@@ -20,64 +20,28 @@ function About2() {
               <div className="col-lg-6 order-lg-2 d-flex align-items-center">
                 <div className="widget-block relative">
                   <div className="h100 d-none d-lg-block"></div>
-                  <h4 className="widget-title">Fault Tolerance for Humanity</h4>
+                  <h4 className="widget-title">THE ROLE OF COALITIONS IN FAULT TOLERANCE FOR HUMANITY</h4>
                   <p>
-                    Learn about the robustness and resilience of our
-                    decentralized cloud ecosystem, ensuring that it can
-                    withstand and recover from any potential failures or
-                    disruptions. It means that humanity can trust their data
-                    will always be secure and accessible, even in the face of
-                    unexpected challenges, contributing to the reliability of a
-                    global collective intelligence. Joining this ecosystem and
-                    its coaltions offers not only personal empowerment but also
-                    a safeguard for the authentic progress of humanity in an
-                    ever-connected world.
+                  Coalitions in the NNN Decentralized Cloud are like safety nets for our digital oil: Data in the digital world. They ensure that we safeguard when and how we share our data with others so they can refine it into powerful information under our terms. While other private coalitions might have their AI views, everything your coalitions keep working smoothly and securely. Even if you create a joint coalition with someone else, you can always rely on the technology that powers your own Coalition to help you, no matter what happens, keeping all our digital lives safe and uninterrupted. However, the benefit to the world is that when your Authentic Intelligence is shared in shared coalitions, we create a Collective Intelligence where no bias resides.
                   </p>
                   <div className="block-feature d-lg-none d-xl-block">
                     <i className="ion-calendar"></i>
-                    <a href="/">Coaltions on a Decentralized Cloud</a>
+                    <a href="/">YOUR COALITION ON NNN</a>
                     <p>
-                      A decentralized cloud is better because it offers enhanced
-                      security, data ownership, and resilience while fostering
-                      innovation and collaboration across a distributed network,
-                      ensuring a more reliable and equitable digital future. In
-                      the vibrant tapestry of NNN's decentralized cloud, a
-                      coalition is not just a team; it's a groundbreaking
-                      assembly of consensus groups working in harmony through a
-                      deterministic concurrent process. This process is the
-                      backbone of a decentralized data warehouse that's not
-                      merely a storage unit but a fortress, safeguarded by the
-                      cryptographic strength of BLS 12-381. Imagine an intricate
-                      dance where every step, every move, is a piece of data
-                      being woven into a resilient, transparent JSON tapestry,
-                      ready to be unfurled across the digital expanse. This
-                      isn't just compute stack appications with data storage;
-                      it's a revolution in how information is held, protected,
-                      and accessed. With the agility of a microservice, this
-                      system seamlessly integrates into any software application
-                      you choose, making your hosting on NNN not just secure but
-                      effortlessly adaptable. It's not just a coalition; it's a
-                      union of technology and trust, powering a future where
-                      your digital presence is as customizable as it is secure.
+                    Leveraging Vogon technology, your coalitions are built on a foundation of quantum-resistant security protocols and decentralized consensus mechanisms. This ensures that data within coalitions is secure from today's cyber threats and prepares for future challenges in the quantum computing era.
                     </p>
                   </div>
                   <div className="block-feature d-lg-none d-xxl-block">
                     <i className="ion-image"></i>
-                    <a href="/">Owned by You</a>
+                    <a href="/">COALITIONS & DATA SHARING</a>
                     <p>
-                      A decentralized cloud is better when its servers are owned
-                      by decentralized owners. This ensures data sovereignty,
-                      and reduces the risk of single points of failure. NNN
-                      enhances security through distributed ownership, and
-                      empowers individuals and businesses to have greater
-                      control over their data and digital assets, fostering a
-                      more resilient and equitable digital ecosystem.
+                    Coalitions provide enhanced data security through advanced encryption and decentralized storage; data within coalitions is virtually impervious to unauthorized access and cyber-attacks. You choose when and how to scale dynamically, accommodating your growing data needs and ensuring that the unlikely failure of one server does not affect the overall network, guaranteeing your uninterrupted service.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 order-lg-1 d-flex align-items-end">
-                <div className="relative  d-flex">
+                {/* <div className="relative  d-flex">
                   <div className="card-block  lax lax_preset_fadeIn:50:150  lax_preset_slideY:4500:700">
                     <div className="card-info">
                       <h2>100%</h2>
@@ -89,7 +53,7 @@ function About2() {
                     src="img/preview/about3.png"
                     alt=""
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -103,24 +67,20 @@ function About2() {
                     <img
                       className="img-fluid"
                       alt=""
-                      src="img/preview/blog18.jpg"
+                      src="img/preview/your_data.jpg"
                     />
                     <div className="welcome-article-text">
                       <h4>Your Data, Your Rules:</h4>
                       <p>
-                        With decentralized cloud coalition, your data is no
-                        longer held by big corporations but is securely stored
-                        across a network of individual operators, ensuring that
-                        you have ultimate control over your information. It's
-                        like having your own digital fortress.
+                      With a decentralized cloud coalition, your data is no longer held by big corporations but is securely stored across a network of individual operators, ensuring you have ultimate control over your information. It's like having your digital fortress.
                       </p>
                       <Link
-                        to="services"
+                        to="contact"
                         className="btn-default white btn-move"
                         smooth={false}
                         duration={800}
                       >
-                        Visit Services
+                        JOIN TODAY
                       </Link>
                     </div>
                   </div>
@@ -130,24 +90,20 @@ function About2() {
                     <img
                       className="img-fluid"
                       alt=""
-                      src="img/preview/blog19.jpg"
+                      src="img/preview/resilient_internet.jpg"
                     />
                     <div className="welcome-article-text">
                       <h4>More Resilient Internet:</h4>
                       <p>
-                        Imagine the internet as a giant puzzle. Instead of one
-                        piece holding everything together, it's now spread
-                        across many pieces. This means if one piece fails, the
-                        whole puzzle still works. It's like having a phone that
-                        never drops calls.
+                      Quantum-resistant security protocols and decentralized consensus mechanisms ensures data within coalitions is secure and prepared for the future quantum computing era.
                       </p>
                       <Link
-                        to="portfolio"
+                        to="contact"
                         className="btn-default white btn-move t1"
                         smooth={false}
                         duration={800}
                       >
-                        Visit Portfolio
+                        JOIN TODAY
                       </Link>
                     </div>
                   </div>
@@ -157,26 +113,21 @@ function About2() {
                     <img
                       className="img-fluid"
                       alt=""
-                      src="img/preview/blog20.jpg"
+                      src="img/preview/money_tree.jpg"
                     />
                     <div className="welcome-article-text">
-                      <h4>Smarter AI for Everyone:</h4>
+                      <h4>ENHANCED DATA SECURITY:</h4>
                       <p>
-                        This new technology called Authentic Intelligence makes
-                        AI like Siri or Alexa way smarter. It learns from
-                        everyone's experiences, so it can help you better. It's
-                        like having a personal tutor that knows everything about
-                        the world and your life, helping you make better
-                        decisions.
+                      Coalitions the loud to dynamically scale, accommodating the growing data needs of businesses worldwide and ensuring that the failure of one node does not affect the overall network, guaranteeing uninterrupted service and data growth is profitable.
                       </p>
 
                       <Link
-                        to="blog"
+                        to="contact"
                         className="btn-default white btn-move t2"
                         smooth={false}
                         duration={800}
                       >
-                        Visit Blogs
+                       JOIN TODAY
                       </Link>
                     </div>
                   </div>

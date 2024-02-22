@@ -1653,6 +1653,32 @@ video#cover-video {
   background-position: center center;
   background-size: cover;
 }
+#header .navbar-default .navbar-nav .home3-m-about {
+  background-image: url("../img/bg/bg4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .navbar-nav .home2-n-about {
+  background-image: url("../img/bg/bg4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home4-m-about {
+  background-image: url("../img/bg/bg4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home5-m-about {
+  background-image: url("../img/bg/bg4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home6-m-about {
+  background-image: url("../img/bg/bg4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
 
 #header .navbar-default .navbar-nav .about.ab2 {
   background-image: url("../img/bg/bg22.jpg");
@@ -1671,8 +1697,82 @@ video#cover-video {
   background-size: cover;
 }
 
+
+#header .navbar-default .navbar-nav .home3-m-service {
+
+  background-image: url("../img/bg/bg21.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .navbar-nav .home4-m-service {
+
+  background-image: url("../img/bg/bg21.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home5-m-service {
+
+  background-image: url("../img/bg/bg21.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home6-m-service {
+
+  background-image: url("../img/bg/bg21.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .navbar-nav .home2-n-service {
+
+  background-image: url("../img/bg/bg21.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
 #header .navbar-default .navbar-nav .work {
   background-image: url("../img/bg/technology.jpg");
+  /* background-image: url("../img/bg/bgbond.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#header .navbar-default .navbar-nav .home3-m-work {
+  background-image: url("../img/bg/bg20.jpg");
+  /* background-image: url("../img/bg/bgbond.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .navbar-nav .home4-m-work {
+  background-image: url("../img/bg/bg20.jpg");
+  /* background-image: url("../img/bg/bgbond.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .navbar-nav .home5-m-work {
+  background-image: url("../img/bg/bg20.jpg");
+  /* background-image: url("../img/bg/bgbond.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .navbar-nav .home6-m-work {
+  background-image: url("../img/bg/bg20.jpg");
+  /* background-image: url("../img/bg/bgbond.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+#header .navbar-default .navbar-nav .home2-n-work {
+  background-image: url("../img/bg/bg20.jpg");
   /* background-image: url("../img/bg/bgbond.jpg"); */
   background-position: center center;
   background-size: cover;
@@ -1691,6 +1791,38 @@ video#cover-video {
   background-size: cover;
 }
 
+#header .navbar-default .navbar-nav .home3-m-contact {
+  background-image: url("../img/bg/bg19.jpg");
+  /* background-image: url("../img/bg/bg6.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home4-m-contact {
+  background-image: url("../img/bg/bg19.jpg") ;
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home5-m-contact {
+  background-image: url("../img/bg/bg19.jpg");
+  /* background-image: url("../img/bg/bg6.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home6-m-contact {
+  background-image: url("../img/bg/bg19.jpg");
+  /* background-image: url("../img/bg/bg6.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#header .navbar-default .navbar-nav .home2-n-contact {
+  background-image: url("../img/bg/bg19.jpg");
+  /* background-image: url("../img/bg/bg6.jpg"); */
+  background-position: center center;
+  background-size: cover;
+}
+
 #header .navbar-default .navbar-nav .contact2 {
   /* background-image: url("../img/bg/bgbond.jpg"); */
   background-image: url("../img/bg/invest.jpg");
@@ -1704,6 +1836,35 @@ video#cover-video {
   background-size: cover;
 }
 
+#header .navbar-default .navbar-nav .home3-m-auth {
+  background-image: url("../img/bg/bg18.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#header .navbar-default .navbar-nav .home4-m-auth {
+  background-image: url("../img/bg/bg18.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .navbar-nav .home5-m-auth {
+  background-image: url("../img/bg/bg18.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#header .navbar-default .navbar-nav .home6-m-auth {
+  background-image: url("../img/bg/bg18.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#header .navbar-default .navbar-nav .home2-n-auth {
+  background-image: url("../img/bg/bg18.jpg");
+  background-position: center center;
+  background-size: cover;
+}
 
 #header .navbar-default .home-page-nav .home {
   background-image: url("../img/bg/overiew.jpg");
@@ -6159,7 +6320,9 @@ span.dropcap {
   margin-top: 100px
 }
 
-
+.pt-home2{
+  padding-top: 20px;
+}
 @media (max-width: 1200px) {
  
   .card-i{

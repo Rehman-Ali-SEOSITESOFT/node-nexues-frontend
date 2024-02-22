@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../images/logo-big-shop.png";
+import Logo from "../Logo";
 
 function Navbar5() {
   const [navToggle, setnavToggle] = useState(true);
@@ -9,10 +9,7 @@ function Navbar5() {
     <>
       <nav className="navbar navbar-default  navbar-expand-md">
         <div className="navbar-header">
-          <Link to="/" className="header-logo" smooth={false} duration={800}>
-            {/* <span></span> */}
-            <img src={logo} alt="logo" />
-          </Link>
+         <Logo/>
           <button
             onClick={() => setnavToggle(!navToggle)}
             type="button"
@@ -41,9 +38,9 @@ function Navbar5() {
             className="nav navbar-nav  navbar-right menu-item-6"
             id="navbar-full"
           >
-            <li className="current home">
+            <li className="current home home5-m-home">
               <span className="bg-icon">1</span>
-              <span className="rotated-title">Node Owner</span>
+              <span className="rotated-title">OVERVIEW</span>
               <Link
                 to="/node"
                 className="link-item "
@@ -51,10 +48,10 @@ function Navbar5() {
                 duration={800}
                 activeClass="active"
               >
-                Node Owner
+               OVERVIEW
               </Link>
             </li>
-            <li className="about">
+            <li className="about home5-m-about">
               <span className="bg-icon">2</span>
               <span className="rotated-title">Coalition</span>
               <Link
@@ -67,7 +64,7 @@ function Navbar5() {
                 Coalition
               </Link>
             </li>
-            <li className="service">
+            <li className="service home5-m-service">
               <span className="bg-icon">3</span>
               <span className="rotated-title">Application Developer</span>
               <Link
@@ -80,7 +77,7 @@ function Navbar5() {
                 Application Developer
               </Link>
             </li>
-            <li className="work">
+            <li className="work home5-m-work">
               <span className="bg-icon">4</span>
               <span className="rotated-title">Users</span>
               <Link
@@ -93,7 +90,7 @@ function Navbar5() {
                 Users
               </Link>
             </li>
-            <li className="contact">
+            <li className="contact home5-m-contact">
               <span className="bg-icon">5</span>
               <span className="rotated-title">Asset Backed Providers</span>
               <Link
@@ -106,7 +103,7 @@ function Navbar5() {
                 Asset Backed
               </Link>
             </li>
-            <li className="auth">
+            <li className="auth home5-m-auth">
               <span className="bg-icon">6</span>
               <span className="rotated-title">Authentic Intelligence </span>
               <Link

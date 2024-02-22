@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
-import logo from "../../images/logo-big-shop.png";
-
+import Logo from "../Logo";
 function Navbar6() {
   const [navToggle, setnavToggle] = useState(true);
 
@@ -10,10 +8,7 @@ function Navbar6() {
     <>
       <nav className="navbar navbar-default  navbar-expand-md">
         <div className="navbar-header">
-          <Link to="/" className="header-logo" smooth={false} duration={800}>
-            {/* <span></span> */}
-            <img src={logo} alt="logo" />
-          </Link>
+         <Logo/>
           <button
             onClick={() => setnavToggle(!navToggle)}
             type="button"
@@ -42,11 +37,11 @@ function Navbar6() {
             className="nav navbar-nav  navbar-right menu-item-6"
             id="navbar-full"
           >
-            <li className="current home">
+            <li className="current home home6-m-home">
               <span className="bg-icon">
                 <i className="ion-ios-star-outline"></i>
               </span>
-              <span className="rotated-title effect">Node Owner</span>
+              <span className="rotated-title effect">OVERVIEW</span>
               <Link
                 to="/node"
                 className="link-item "
@@ -54,10 +49,10 @@ function Navbar6() {
                 duration={800}
                 activeClass="active"
               >
-                Node Owner
+               OVERVIEW
               </Link>
             </li>
-            <li className="about">
+            <li className="about home6-m-about">
               <span className="bg-icon">
                 <i className="ion-ios-star-outline"></i>
               </span>
@@ -72,7 +67,7 @@ function Navbar6() {
                 Coalition
               </Link>
             </li>
-            <li className="service">
+            <li className="service home6-m-service">
               <span className="bg-icon">
                 <i className="ion-ios-star-outline"></i>
               </span>
@@ -89,7 +84,7 @@ function Navbar6() {
                 Application Developer
               </Link>
             </li>
-            <li className="work">
+            <li className="work home6-m-work">
               <span className="bg-icon">
                 <i className="ion-ios-star-outline"></i>
               </span>
@@ -104,7 +99,7 @@ function Navbar6() {
                 Users
               </Link>
             </li>
-            <li className="contact">
+            <li className="contact home6-m-contact">
               <span className="bg-icon">
                 <i className="ion-ios-star-outline"></i>
               </span>
@@ -121,7 +116,7 @@ function Navbar6() {
                 Asset Backed
               </Link>
             </li>
-            <li className="auth">
+            <li className="auth home6-m-auth">
               <span className="bg-icon">
                 <i className="ion-ios-star-outline"></i>
               </span>

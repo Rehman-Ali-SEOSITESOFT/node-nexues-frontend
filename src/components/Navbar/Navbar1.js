@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import logo from "../../images/logo-big-shop.png";
+import Logo from "../Logo";
+import { Link } from "react-scroll";
 
 function Navbar1() {
   const [navToggle, setnavToggle] = useState(true);
@@ -9,10 +9,7 @@ function Navbar1() {
     <>
       <nav className="navbar navbar-default  navbar-expand-md">
         <div className="navbar-header">
-          <Link to="/" className="header-logo" smooth={false} duration={800}>
-            {/* <span></span> */}
-            <img src={logo} alt="logo" />
-          </Link>
+        <Logo/>
           <button
             onClick={() => setnavToggle(!navToggle)}
             type="button"

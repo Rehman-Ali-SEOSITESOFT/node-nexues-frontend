@@ -12,7 +12,7 @@ function Portfolio2() {
             <div className="section-sub-title center">
               <article className="section-title-body white">
                 <h1 className="head-title">
-                  Best <span>Works</span> from us
+                <span>JOIN US</span> TO SHAPE THE <span>FUTURE</span> TOGETHER
                 </h1>
               </article>
             </div>

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
-import logo from "../../images/logo-big-shop.png";
+import Logo from "../Logo";
 
 function Navbar3() {
   const [navToggle, setnavToggle] = useState(true);
@@ -10,10 +9,7 @@ function Navbar3() {
     <>
       <nav className="navbar navbar-default  navbar-expand-md">
         <div className="navbar-header">
-          <Link to="/" className="header-logo" smooth={false} duration={800}>
-            {/* <span></span> */}
-            <img src={logo} alt="logo" />
-          </Link>
+          <Logo/>
           <button
             onClick={() => setnavToggle(!navToggle)}
             type="button"
@@ -44,7 +40,7 @@ function Navbar3() {
           >
             <li className="current home">
               <span className="bg-icon">1</span>
-              <span className="rotated-title effect">Node Owner</span>
+              <span className="rotated-title effect">OVERVIEW</span>
               <Link
                 to="/node"
                 className="link-item "
@@ -52,14 +48,14 @@ function Navbar3() {
                 duration={800}
                 activeClass="active"
               >
-                Node Owner
+                OVERVIEW
               </Link>
             </li>
-            <li className="about">
+            <li className="about home3-m-about">
               <span className="bg-icon">2</span>
               <span className="rotated-title effect">Coalition</span>
               <Link
-                to="/coallition"
+                to="/coalition"
                 className="link-item"
                 smooth={false}
                 duration={800}
@@ -68,7 +64,7 @@ function Navbar3() {
                 Coalition
               </Link>
             </li>
-            <li className="service">
+            <li className="service home3-m-service">
               <span className="bg-icon">3</span>
               <span className="rotated-title effect">
                 Application Developer
@@ -83,7 +79,7 @@ function Navbar3() {
                 Application Developer
               </Link>
             </li>
-            <li className="work">
+            <li className="work home3-m-work">
               <span className="bg-icon">4</span>
               <span className="rotated-title effect">Users</span>
               <Link
@@ -96,7 +92,7 @@ function Navbar3() {
                 Users
               </Link>
             </li>
-            <li className="contact">
+            <li className="contact home3-m-contact">
               <span className="bg-icon">5</span>
               <span className="rotated-title effect">
                 Asset Backed Providers
@@ -111,7 +107,7 @@ function Navbar3() {
                 Asset Backed
               </Link>
             </li>
-            <li className="auth">
+            <li className="auth home3-m-auth">
               <span className="bg-icon">6</span>
               <span className="rotated-title">Authentic Intelligence</span>
               <Link

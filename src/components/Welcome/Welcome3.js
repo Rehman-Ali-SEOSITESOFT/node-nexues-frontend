@@ -8,22 +8,26 @@ function Welcome3() {
       <div className="block color-scheme-1">
         <div className="container">
           <div className="row justify-content-center">
+          <div className="col-md-12 col-lg-12">
+              <div className="section-sub-title center">
+                <article className="section-title-body white">
+                  <h1 className="head-title">
+                  Unlock Next-Generation <span>Hosting</span>, <span>Efficiency</span> , <span>Security</span>, and Innovation for Your Applications with <span>Authentic Intelligence.</span> 
+                  </h1>
+                </article>
+              </div>
+            </div>
             <div className="col-md-12 col-lg-6">
               <div className="section-sub-title">
                 <article className="section-title-body white">
-                  <h1 className="head-title">
-                    We care about our all <span>clients</span> and can make
-                    their <span>life</span> more easier !
-                  </h1>
                   <p className="head-text">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                  In an era where digital transformation is not just an option but a necessity, application developers stand at the forefront of pioneering a future cloud infrastructure that is secure, efficient, and sustainable. On NNN your participation will help us to emerge as a beacon of innovation, offering a unique blend of cost-effective hosting, advanced infrastructure and security measures, and cutting-edge technologies such as our Zaph Hyper VM and Marvin the AI Actuary. 
                   </p>
-                  <Link
+                  <p className="head-text">
+                  By joining the NNN movement, developers gain ownership of their own Cloud Computing Company, a decentralized platform that enhances application performance through optimized processes and quantum-level security frameworks.  Help us champion helping those in under-promoted parts of the planet with AI-driven solutions on green technology campuses that create jobs. As developers rise to not only meet the current demands of the digital landscape but join us in leading the charge towards a more resilient, inclusive, authentic, and forward-thinking digital future.
+
+                  </p>
+                  {/* <Link
                     to="portfolio"
                     className="btn-default white btn-move"
                     smooth={false}
@@ -39,7 +43,7 @@ function Welcome3() {
                     duration={800}
                   >
                     Contact
-                  </Link>
+                  </Link> */}
                 </article>
               </div>
             </div>

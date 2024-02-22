@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
-import logo from "../../images/logo-big-shop-dark.png";
+import Logo from "../Logo";
 
 function Navbar4() {
   const [navToggle, setnavToggle] = useState(true);
@@ -10,10 +9,7 @@ function Navbar4() {
     <>
       <nav className="navbar navbar-default  navbar-expand-md  light">
         <div className="navbar-header">
-          <Link to="/" className="header-logo" smooth={false} duration={800}>
-            {/* <span></span> */}
-            <img src={logo} alt="logo" />
-          </Link>
+          <Logo/>
           <button
             onClick={() => setnavToggle(!navToggle)}
             type="button"
@@ -42,10 +38,10 @@ function Navbar4() {
             className="nav navbar-nav  navbar-right menu-item-6"
             id="navbar-full"
           >
-            <li className="current home">
+            <li className="current home home4-m-home">
               <span className="bg-nav-gr"></span>
               <span className="bg-icon">1</span>
-              <span className="rotated-title effect">Node Owner</span>
+              <span className="rotated-title effect">OVERVIEW</span>
               <Link
                 to="/node"
                 className="link-item "
@@ -53,10 +49,10 @@ function Navbar4() {
                 duration={800}
                 activeClass="active"
               >
-                Node Owner
+                OVERVIEW
               </Link>
             </li>
-            <li className="about">
+            <li className="about home4-m-about">
               <span className="bg-nav-gr"></span>
               <span className="bg-icon">2</span>
               <span className="rotated-title effect">Coalition</span>
@@ -70,7 +66,7 @@ function Navbar4() {
                 Coalition
               </Link>
             </li>
-            <li className="service">
+            <li className="service home4-m-service">
               <span className="bg-nav-gr"></span>
               <span className="bg-icon">3</span>
               <span className="rotated-title effect">
@@ -86,7 +82,7 @@ function Navbar4() {
                 Application Developer
               </Link>
             </li>
-            <li className="work">
+            <li className="work home4-m-work">
               <span className="bg-nav-gr"></span>
               <span className="bg-icon">4</span>
               <span className="rotated-title effect">Users</span>
@@ -100,7 +96,7 @@ function Navbar4() {
                 Users
               </Link>
             </li>
-            <li className="contact">
+            <li className="contact home4-m-contact">
               <span className="bg-nav-gr"></span>
               <span className="bg-icon">5</span>
               <span className="rotated-title effect">
@@ -116,7 +112,7 @@ function Navbar4() {
                 Asset Backed
               </Link>
             </li>
-            <li className="auth">
+            <li className="auth home4-m-auth">
               <span className="bg-nav-gr"></span>
               <span className="bg-icon">6</span>
               <span className="rotated-title effect">
