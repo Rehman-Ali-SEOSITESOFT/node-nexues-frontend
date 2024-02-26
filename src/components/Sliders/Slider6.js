@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import bg_vide from "../../videos/girl.mp4";
+import bg_vide from "../../videos/authentic_page.mp4";
 export default class SimpleSlider6 extends Component {
   render() {
     const settings = {
