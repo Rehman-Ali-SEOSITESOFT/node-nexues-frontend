@@ -47,7 +47,13 @@ function Featured() {
                   <p>
                     NNN Cloud provides cutting-edge efficiency and fault
                     tolerance, making it a leader in innovative cloud
-                    technology.{" "}
+                    technology.
+                  </p>
+                </article>
+                <article className="widget-block right">
+                  <h4 className="widget-title title-l">DECENTRALIZED INFRASTRUCTURE</h4>
+                  <p>
+                  NNN provides a lower cost decentralized infrastructure with a robust AI technology framework at the edge.
                   </p>
                 </article>
               </div>
@@ -66,6 +72,13 @@ function Featured() {
                   <p>
                     We dramatically enhance data security and AI efficiency,
                     making it an ideal choice for businesses and homes.
+                  </p>
+                </article>
+                <article className="widget-block ">
+                  <h4 className="widget-title title-l">WEB5 EXPERIENCE</h4>
+                  <p>
+                  NNN creates a safer, smarter, greener and egalitarian digital world for everyone.
+
                   </p>
                 </article>
               </div>

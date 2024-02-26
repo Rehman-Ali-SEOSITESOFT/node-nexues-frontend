@@ -32,9 +32,9 @@ const services = [
   },
   {
     _id: "006",
-    classIcon: "ion-ios-settings",
+    classIcon: "ion-ios-pie-outline",
     title: "Powerful & Flexible",
-    text: "Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud",
+    text: "NNN harnesses cutting-edge technology to offer secure, scalable solutions that adapt to the future of finance and digital innovation.",
   },
 ];
 function Service2() {
