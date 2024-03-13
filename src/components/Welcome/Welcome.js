@@ -41,9 +41,9 @@ function Welcome() {
                 <div className="player-wrapper-home">
                   <ReactPlayer
                     className="react-player"
-                    width="100%"
-                    height="100%"
-                    url={Video}
+                    width="500"
+                    height="500"
+                    url={"https://player.vimeo.com/video/921047740?h=fb421a7a6c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"}
                     playing
                     controls={true}
                     muted

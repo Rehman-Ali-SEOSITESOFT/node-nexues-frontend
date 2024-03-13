@@ -6273,6 +6273,10 @@ span.dropcap {
   top: 0;
   left: 0;
 }
+.react-player{
+  height: 368px;
+}
+
 .back-to-top-home{
   height: 50px;
   width: 50px;
@@ -6338,5 +6342,213 @@ span.dropcap {
     width: 60%;
     margin: 12px;
   
+  }
+}
+
+/* ///// new section CSS is here */
+
+
+.section-one-background{
+  background-image: url("../img/bg/section-one.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px; /* set the height of the div */
+  width: 100%;
+  position: relative;
+}
+
+
+
+.head-title2 {
+  color: #911d36;
+  padding: 0 0 50px;
+  margin: 0;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-family: 'JosefinSans', sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.head-text2 {
+  /* color: #999; */
+  color: #ffffff !important;
+  font-size: 40px;
+  z-index: 3;
+  /* text-transform: u; */
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'JosefinSans', sans-serif;
+  /* font-weight: 400; */
+  line-height: initial;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.head-text4 {
+  /* color: #999; */
+  color: #911d36 !important;
+  font-size: 30px;
+  z-index: 3;
+  /* text-transform: u; */
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'JosefinSans', sans-serif;
+  /* font-weight: 400; */
+  line-height: initial;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.head-text5 {
+  /* color: #999; */
+  color: #911d36 !important;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'JosefinSans', sans-serif;
+  /* font-weight: 400; */
+  line-height: initial;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 700;   
+}
+
+
+
+.head-text3 {
+  /* color: #999; */
+  color: #911d36 !important;
+  font-size: 30px;
+  z-index: 3;
+  /* text-transform: u; */
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'JosefinSans', sans-serif;
+  /* font-weight: 400; */
+  line-height: initial;
+  text-align: left;
+  padding-top: 40px;
+
+}
+
+
+.section-one{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.font-strong{
+  font-size: 60px;
+}
+
+.img2-home{
+  height: 422px;
+  width: 100%;
+}
+
+
+.circle-home{
+ height: 400px;
+ width: 400px;
+ border: 10px solid #911d36;
+ border-radius: 400px;
+ /* background-color: red; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.img-circle{
+  height: 340px;
+  width: 340px;
+  border-radius: 340px;
+}
+
+.react-player2{
+  height: 650px ;
+}
+
+.sec-10{
+  height: 400px;
+  background-color: #262626;
+  margin-left: 2px;
+}
+
+.author-block2 {
+  position: relative;
+  /* margin: 0 0 50px; */
+  overflow: hidden;
+  background-color: #262626;
+  padding: 15; 
+  height: 400px;
+}
+.pt-section-ten{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.sec-thirteen-card{
+  background-color: #262626;
+  height: 260px;
+}
+.img-thirteen{
+  height: 260px;
+  width: 98%;
+}
+
+.bar-thirteen{
+  height: 260px;
+  background-color: #7f7f7f;
+  width: 20px;
+}
+
+.img-con-thirteen{
+  display: flex;
+  flex-direction: row;
+}
+
+.sec-thirteen-card-inner{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-start;
+  
+}
+
+
+.head-text6 {
+  /* color: #999; */
+  color: #fff;
+  font-size: 15px;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  text-align: left;
+  font-family: 'JosefinSans', sans-serif;
+  font-weight: 500;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .section-one-background {
+    height: 500px; /* Adjust the height for smaller screens */
+  }
+}
+
+@media (max-width: 1800px) {
+  .section-one-background {
+    height: 800px; /* Adjust the height for smaller screens */
+  }
+  .head-title2 {
+    font-size: 40px;
+  }
+  .head-text2 {
+    font-size: 30px;
   }
 }
