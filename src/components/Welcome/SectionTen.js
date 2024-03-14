@@ -22,15 +22,15 @@ function SectionTen() {
 
                 <article className="section-title-body white">
                   <p className="head-text">
-                    Presentation name goes hereWe picked the best from  <span>Web 1.0</span> and <span>Web 2.0</span>  and evolved the internet. We created a <span>Web 5.0</span> decentralized infrastructure to go beyond current the semantic web's promise.
+                    We picked the best from  <span>Web 1.0</span> and <span>Web 2.0</span>  and evolved the internet. We created a <span>Web 5.0</span> decentralized infrastructure to go beyond current the semantic web's promise.
                   </p>
                   <p className="head-text">
-                    NNN bridges the gap between traditional blockchains, data warehouses, and AIon an enterprise-class decentralized cloud infrastructure.</p>
+                    NNN bridges the gap between traditional blockchains, data warehouses, and AI on an enterprise-class decentralized cloud infrastructure.</p>
                   <p className="head-text">
-                    It is poised to lead the decentralized edge and infrastructure markets, delivering amore secure edge and hybrid cloud solution. We will ensure that commercial andcapital markets have the tools they need to power the future of AI.
+                    It is poised to lead the decentralized edge and infrastructure markets, delivering a more secure edge and hybrid cloud solution. We will ensure that commercial and capital markets have the tools they need to power the future of AI.
                   </p>
                   <p className="head-text">
-                    We are returning to the historical benefits of asset-backed bonds, which leveragethe land, facility technology, servers, and security tokens to provide securitizedvalue and <span>“utility of worth.”</span>
+                    We are returning to the historical benefits of asset-backed bonds, which leverage the land, facility technology, servers, and security tokens to provide securitized value and <span>“utility of worth.”</span>
                   </p>
 
                 </article>

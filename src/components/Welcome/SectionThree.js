@@ -22,7 +22,7 @@ function SectionThree() {
               <div className="section-sub-title ">
                 <img
                   alt=""
-                  className="img-fluid"
+                  className="img-fluid sec-img-3-1"
                   src="img/img2.png"
                 />
               </div>

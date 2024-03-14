@@ -21,6 +21,11 @@ import SectionTen from "../components/Welcome/SectionTen";
 import SectionEleven from "../components/Welcome/SectionEleven";
 import SectionTwelve from "../components/Welcome/SectionTwelve";
 import SectionThirteen from "../components/Welcome/SectionThirteen";
+import SectionFourteen from "../components/Welcome/SectionFourtheen";
+import SectionFifteen from "../components/Welcome/SectionFifteen";
+import SectionSixteen from "../components/Welcome/SectionSixteen";
+import SectionSeventeen from "../components/Welcome/SectionSeventeen";
+import SectionNine from "../components/Welcome/SectionNine";
 
 function Home() {
   return (
@@ -41,10 +46,15 @@ function Home() {
       <SectionSix/>
       <SectionSeven/>
       <SectionEight/>
+      <SectionNine/>
       <SectionTen/>
       <SectionEleven/>
       <SectionTwelve/>
       <SectionThirteen/>
+      <SectionFourteen/>
+      <SectionFifteen/>
+      <SectionSixteen/>
+      <SectionSeventeen/>
       <Contact />
       <Newsletter/>
       <Map />

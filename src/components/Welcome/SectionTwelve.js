@@ -25,9 +25,9 @@ function SectionTwelve() {
                     <strong>Interoperable Platform Gains: </strong><span> NNN</span>  profits from its cross-platform interoperability by providing integration and API management services that enable seamless AI and system interactions,appealing to diverse tech enterprises and enhancing the user experience across various software environments.
                   </p>
                   <p className="head-text">
-                    <strong> Enhanced Security Revenues: </strong><span>NNN</span> offers cutting-edge quantum-encrypted security solutionspaid monthly using SPHINCS+ and BLS 12-381; the company caters to high-stakes sectors likefinance and healthcare, ensuring a premium income stream from clients needing top-tier dataprotection.</p>
+                    <strong> Enhanced Security Revenues: </strong><span>NNN</span> offers cutting-edge quantum-encrypted security solutions paid monthly using SPHINCS+ and BLS 12-381; the company caters to high-stakes sectors like finance and healthcare, ensuring a premium income stream from clients needing top-tier data protection.</p>
                   <p className="head-text">
-                    <strong> High-Performance Computing: </strong><span>NNN</span> capitalizes its quantum processing and polyglot JITcompilation, selling monthly advanced computing services on top of its standard discount cloudservices that include AI, analytics, and simulations, targeting research bodies and data-heavyindustries requiring robust computational power.
+                    <strong> High-Performance Computing: </strong><span>NNN</span> capitalizes its quantum processing and polyglot JIT compilation, selling monthly advanced computing services on top of its standard discount cloud services that include AI, analytics, and simulations, targeting research bodies and data-heavy industries requiring robust computational power.
                   </p>
 
 
@@ -60,7 +60,7 @@ function SectionTwelve() {
 
                         </p>
                         <p className="head-text pt-section-ten">
-                        Harness unparalleled security and quantum-resistant cryptography withDQ-LDB's edge hosting, ensuring scalable, interoperable solutions and robust data integrity, all while eliminating single points of failure forun matched reliability in a decentralized framework
+                        Harness unparalleled security and quantum-resistant cryptography withDQ-LDB's edge hosting, ensuring scalable, interoperable solutions and robust data integrity, all while eliminating single points of failure forun matched reliability in a decentralized framework.
                         </p>
 
 

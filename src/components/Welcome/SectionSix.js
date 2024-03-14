@@ -35,13 +35,13 @@ function SectionSix() {
              <span> WHY IS THIS TIMELY FOR HUMANITY?</span>  
               </p>
                   <p className="head-text">
-                  In today's digital age, where Data is the new oil, every individual is a data tycoon, with uniqueexperiences and insights serving as invaluable information wells.
+                  In today's digital age, where Data is the new oil, every individual is a data tycoon, with unique experiences and insights serving as invaluable information wells.
                   </p>
                   <p className="head-text">
-                  Just as oil magnates of the past safeguarded their precious reserves, our decentralized cloudtechnology ensures that your data reservoir remains protected, even amidst disruptions. This isn’tjust about tech safeguards; it’s about valuing and compensating everyone's contribution to theglobal data repository
+                  Just as oil magnates of the past safeguarded their precious reserves, our decentralized cloud technology ensures that your data reservoir remains protected, even amidst disruptions. This isn’tjust about tech safeguards; it’s about valuing and compensating everyone's contribution to the global data repository
                   </p>
                   <p className="head-text">
-                  By fostering this new era of data exchange, we’re driving economic growth by returning to ourroots of Asset-Backed Infrastructure, deepening genuine human connections, and ensuring thatevery 'data baron' is rightfully rewarded.
+                  By fostering this new era of data exchange, we’re driving economic growth by returning to our roots of Asset-Backed Infrastructure, deepening genuine human connections, and ensuring that every 'data baron' is rightfully rewarded.
                   </p>
                 
                 </article>

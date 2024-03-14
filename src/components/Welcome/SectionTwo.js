@@ -12,7 +12,7 @@ function SectionTwo() {
                 <div className="player-wrapper-home">
                   <img
                     alt=""
-                    className="img-fluid"
+                    className="img-fluid sec-img-2"
                     src="img/logo-big.png"
                   />
                 </div>
@@ -26,16 +26,16 @@ function SectionTwo() {
                     <span>FAULT TOLERANCE FOR HUMANITY</span>
                   </h1>
                   <p className="head-text">
-                    NNN is a Decentralized Infrastructure Provider purpose-built to support edge and hybrid computingnecessary for AI.It is comprised of regional co-location facilities that provide managed services and faulttolerance for humanity.
+                    NNN is a Decentralized Infrastructure Provider purpose-built to support edge and hybrid computing necessary for AI. It is comprised of regional co-location facilities that provide managed services and fault tolerance for humanity.
                   </p>
                   <p className="head-text">
-                    Fault tolerance for humanity describes how NNN will secure your data and empower your information. Itembodies how our technology will digitally transform your authenticity while securitizing the underlyingresource value units through precious metals.
+                    Fault tolerance for humanity describes how NNN will secure your data and empower your information. It embodies how our technology will digitally transform your authenticity while securitizing the underlying resource value units through precious metals.
                   </p>
                   <p className="head-text">
                     On the NNN decentralized cloud, your data and insights power a smarter AI to create collective intelligence.
                   </p>
                   <p className="head-text">
-                    <span> People-Powered Internet </span> is the foundation for a more reliable and safer online experience: Web 5.0. Joinus today to contribute to a smarter and safer world.
+                    <span> People-Powered Internet </span> is the foundation for a more reliable and safer online experience: Web 5.0. Join us today to contribute to a smarter and safer world.
                   </p>
                 </article>
               </div>

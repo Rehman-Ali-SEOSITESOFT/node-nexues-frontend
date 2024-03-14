@@ -24,25 +24,25 @@ function SectionEight() {
                     <span>A Distributed Quantum Ledger Database</span>
                   </p>
                   <p className="head-text">
-                  1. Security: Our DQ-LDB employs SPHINCS+ and BLS 12-381 cryptographicprotocols, which ensure impenetrability and safeguard against the advancedthreats posed by classical and emerging quantum computing attacks.
+                  1. Security: Our DQ-LDB employs SPHINCS+ and BLS 12-381 cryptographic protocols, which ensure impenetrability and safeguard against the advanced threats posed by classical and emerging quantum computing attacks.
                   </p>
                   <p className="head-text">
-                  2. Scalability: Quantum computing, combined with our Zaph HyperVM and apolyglot JIT compiler, delivers unprecedented scalability, enabling real-timeexecution of diverse programming languages and catering to a broadspectrum </p>
+                  2. Scalability: Quantum computing, combined with our Zaph HyperVM and apolyglot JIT compiler, delivers unprecedented scalability, enabling real-time execution of diverse programming languages and catering to a broad spectrum of systems. </p>
                   <p className="head-text">
-                  3. Interoperability: The DQ-LDB's polyglot JIT compiler enhances systemcompatibility, ensuring smooth communication across various programminglandscapes and fostering a universally connective environment.
+                  3. Interoperability: The DQ-LDB's polyglot JIT compiler enhances system compatibility, ensuring smooth communication across various programming landscapes and fostering a universally connective environment.
                   </p>
                   <p className="head-text">
-                  4. Data Management: Our DQ-LDB achieves meticulous data integrity andstreamlined management across its distributed ledger–database hybridthrough deterministic concurrency and consensus groups generatingstructured JSON data.
+                  4. Data Management: Our DQ-LDB achieves meticulous data integrity and streamlined management across its distributed ledger–database hybrid through deterministic concurrency and consensus groups generating structured JSON data.
                   </p>
                   <p className="head-text">
-                  5. Decentralization: DQ-LDB's decentralized nature is fortified by consensusgroups that distribute ledger maintenance, enhancing system resilience byremoving single points of failure.
+                  5. Decentralization: DQ-LDB's decentralized nature is fortified by consensus groups that distribute ledger maintenance, enhancing system resilience by removing single points of failure.
                   </p>
                  </article>
               </div>
             </div>
             <div className="col-md-12 col-lg-5">
               <div className="section-sub-title center">
-                <div className="">
+                <div className="mt-100">
                   <img
                     alt=""
                     className="img-fluid"

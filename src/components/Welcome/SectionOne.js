@@ -19,7 +19,7 @@ function SectionOne() {
                     </h1>
                     <p className="head-text2 wow fadeInDown animated"
                       data-wow-duration="1.5s">
-                      Discover how the groundbreaking fusion of AI and Distributed Quantum Ledger Databases is revolutionizing data and AItechnology, promising unprecedented security, scalability, andtransparency for future innovations.
+                      Discover how the ground breaking fusion of AI and Distributed Quantum Ledger Databases is revolutionizing data and AI technology, promising unprecedented security, scalability, and transparency for future innovations.
                     </p>
                   </article>
                 </div>

@@ -22,12 +22,12 @@ function SectionEleven() {
 
                 <article className="section-title-body white">
                   <p className="head-text">
-                    Presentation name goes hereWe accelerate today's web to Web 5 by harnessing the advanced features of CrowdPoint’s VogonDistributed Quantum-Ledger DataBase (powered by ZaphVMTM).This hyper-efficient polyglot powermicroservices allow developers to choose their software language to power a deterministic andconcurrent process for swiftly generating JSON structures.
+                    We accelerate today's web to Web 5 by harnessing the advanced features of CrowdPoint’s Vogon Distributed Quantum-Ledger DataBase (powered by ZaphVMTM). This hyper-efficient polyglot power microservices allow developers to choose their software language to power a deterministic and concurrent process for swiftly generating JSON structures.
                   </p>
                   <p className="head-text">
-                    <span>NNN</span>  bridges traditional hosting at the Edge with AI and the benefits of blockchaintechnology, bypassing hurdles like scalability and security. It deploys Hardwareglobally to house traditional hosting technology, merging AI with distributedquantum ledger databases (DQ-LDB).</p>
+                    <span>NNN</span>  bridges traditional hosting at the Edge with AI and the benefits of blockchain technology, bypassing hurdles like scalability and security. It deploys Hardware globally to house traditional hosting technology, merging AI with distributed quantum ledger databases (DQ-LDB).</p>
                   <p className="head-text">
-                    The Company is paving the way for advanced technology beyond today’s limitedblockchain and data - siloed enterprise database solutions. The Edge computingmarket size was valued at USD 16.45 billion in 2023 and is expected to grow at acompound annual growth rate (CAGR) of 37.9% from 2023 to 2030. Theattractiveness of combining these technologies in a seamless offer is compelling
+                    The Company is paving the way for advanced technology beyond today’s limited blockchain and data - siloed enterprise database solutions. The Edge computing market size was valued at USD 16.45 billion in 2023 and is expected to grow at acompound annual growth rate (CAGR) of 37.9% from 2023 to 2030. The attractiveness of combining these technologies in a seamless offer is compelling
                   </p>
 
 
@@ -80,11 +80,11 @@ function SectionEleven() {
                       <article className="section-title-body white">
                         <p className="head-text5">
                           <span >
-                          SCALABILITY
+                            SCALABILITY
                           </span>
                         </p>
                         <p className="head-text pt-section-ten">
-                        Vogon enables seamless handling of vast data and transactions, crucial forlarge-scale AI applications with immense semi - structured and indexed datasets and high transaction volumes.
+                          Vogon enables seamless handling of vast data and transactions, crucial forlarge-scale AI applications with immense semi - structured and indexed datasets and high transaction volumes.
                         </p>
                       </article>
                     </div>
@@ -102,12 +102,12 @@ function SectionEleven() {
                       <article className="section-title-body white">
                         <p className="head-text5">
                           <span >
-                          DATA INTEGRITY
+                            DATA INTEGRITY
                           </span>
 
                         </p>
                         <p className="head-text pt-section-ten">
-                        Vogon ensures data integrity through its immutable ledger, crucial for AI models reliant on accurate and unaltered data, thus providing a reliable foundation for AI-driven insights and decisions.
+                          Vogon ensures data integrity through its immutable ledger, crucial for AI models reliant on accurate and unaltered data, thus providing a reliable foundation for AI-driven insights and decisions.
                         </p>
 
 
@@ -127,12 +127,12 @@ function SectionEleven() {
                       <article className="section-title-body white">
                         <p className="head-text5">
                           <span >
-                          SECURITY
+                            SECURITY
                           </span>
 
                         </p>
                         <p className="head-text pt-section-ten">
-                        With quantum encryption and decentralized architecture, Vogon ensures unparalleled security and privacy, safeguarding sensitive information in AI applications amidstrising data breaches and cyber threats.
+                          With quantum encryption and decentralized architecture, Vogon ensures unparalleled security and privacy, safeguarding sensitive information in AI applications amidst rising data breaches and cyber threats.
                         </p>
 
 
