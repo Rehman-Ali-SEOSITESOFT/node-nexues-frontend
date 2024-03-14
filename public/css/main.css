@@ -6694,6 +6694,11 @@ span.dropcap {
   align-items: center;
 }
 
+.text-thirteen-two{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
 
