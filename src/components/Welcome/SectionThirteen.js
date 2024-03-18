@@ -50,7 +50,7 @@ function SectionThirteen() {
                         Unleashing Universal Performance: One VM, Multiple Languages
                       </p>
                       <p className="head-text">
-                        A polyglot microservice offers practicality in a decentralized cloud by effortlessly merging multiple programming languages, ensuring both ease of use and robust performance.
+                      A high-performance ZaphVM<sup>TM</sup>  runtime that supports various programming languages and applications, optimizing their execution and interoperability.
                       </p>
 
 
@@ -95,7 +95,7 @@ function SectionThirteen() {
                       Unifying Languages, Powering Decentralized Clouds
                       </p>
                       <p className="head-text">
-                        A high-performance ZaphVMTM runtime that supports various programming languages and applications, optimizing their execution and interoperability.
+                      A polyglot microservice offers practicality in a decentralized cloud by effortlessly merging multiple programming languages, ensuring both ease of use and robust performance.
                       </p>
 
 

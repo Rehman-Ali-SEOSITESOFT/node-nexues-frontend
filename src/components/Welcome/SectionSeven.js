@@ -24,16 +24,16 @@ function SectionSeven() {
                     <span> The Real Problem with today’s Web:</span>
                   </p>
                   <p className="head-text">
-                  1. Personalized Information: In today's digital age, we're inundated with vast amounts of data yet starved for meaningful and truthful information. Data is the new oil. We value the refined data that becomes information, and what we can access and understand transforms into knowledge.
+                  1. <strong>Personalized Information:</strong> In today's digital age, we're inundated with vast amounts of data yet starved for meaningful and truthful information. Data is the new oil. We value the refined data that becomes information, and what we can access and understand transforms into knowledge.
                   </p>
                   <p className="head-text">
-                  2. Veracity: In the digital landscape, we don’t know what we don't know and struggle to pinpoint the right questions to unveil the truth.
+                  2. <strong>Veracity:</strong> In the digital landscape, we don’t know what we don't know and struggle to pinpoint the right questions to unveil the truth.
                   </p>
                   <p className="head-text">
-                  3. Compensation: Data is the new oil, and information is the digital fuel that powers the global economy. Today, data scientists and response AI refine that data like petroleum engineers to create valuable information, but the owners of the oil wells and the human identity are not compensated
+                  3. <strong>Compensation:</strong> Data is the new oil, and information is the digital fuel that powers the global economy. Today, data scientists and response AI refine that data like petroleum engineers to create valuable information, but the owners of the oil wells and the human identity are not compensated
                   </p>
                   <p className="head-text">
-                  4. Safety: With the advent of the volume, velocity, and variety of data, there isn’t enough meaningful information. Furthermore, without categorizing the Veracity of data, we must be cautious, as not all data is trustworthy, inaccuracies and misconceptions abound, leading to misguided perceptions.
+                  4. <strong>Safety:</strong> With the advent of the volume, velocity, and variety of data, there isn’t enough meaningful information. Furthermore, without categorizing the Veracity of data, we must be cautious, as not all data is trustworthy, inaccuracies and misconceptions abound, leading to misguided perceptions.
                   </p>
                   <p className="head-text4">
                     <span> To make matters worse, according to Cyber Security Ventures, Cybercrime is growing to $10.2 Trillion.</span>
